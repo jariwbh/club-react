@@ -6,11 +6,9 @@ class Default extends Component {
 
     render() {
         return (
-            <React.Fragment>
-                <Switch>
-                    <Route strict exact path="/" component={Home} />
-                </Switch>
-            </React.Fragment>
+            <Switch>
+                <Route strict exact path="/" component={Home} />
+            </Switch>
         );
     }
 }

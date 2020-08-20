@@ -1,0 +1,15 @@
+.videos-banner {
+	background-image: url(../images/request-demo-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;	
+}
+.custom-video-back-icon {
+	background-position: -104px -182px;
+	height:14px;        
+    width:7px;
+	margin-right: 5px;
+}
+.video-back:hover .custom-video-back-icon{
+	background-position: -96px -182px;	
+}

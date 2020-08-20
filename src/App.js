@@ -1,7 +1,8 @@
 import React from 'react'
-import './App.css'
-//import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import './Assets/CssFile/Common.css'
+//import './App.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import './Assets/Css/common.css'
+import './Assets/Css/home.css'
 import Default from './Pages/Default'
 
 function App() {

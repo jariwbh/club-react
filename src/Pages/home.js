@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import Layout from '../Components/Layout'
+import { logo, demo } from '../Components/Image'
 
 export class Home extends Component {
     render() {
         return (
             <Layout>
-                <h1>Hello world</h1>
-                <h1>Hello React Men</h1>
+                <img src={demo} height='600' width='100%' alt="" />
             </Layout>
         )
     }
