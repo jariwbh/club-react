@@ -145,21 +145,21 @@ function Header() {
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="nav-item"> <a class="nav-link" href="#">Venues</a> </li>
+                                    <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
                                         <div class="dropdown-menu dropdown-menu-right membroz-megamenu animate slideIn" >
                                             <div class="row no-gutters">
                                                 <div class="col-md-3">
                                                     <h6 class="head-drp">Information</h6>
-                                                    <a class="dropdown-item" href="#">Information Guide</a>
-                                                    <a class="dropdown-item" href="#">Water Front Procedures</a>
-                                                    <a class="dropdown-item" href="#">Statues &amp; House Rules</a>
-                                                    <a class="dropdown-item" href="#">Tennis Information</a>
-                                                    <a class="dropdown-item" href="#">Brit swim Information</a>
+                                                    <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/info_guide_27.02.2020.pdf" target="_blank">Information Guide</a>
+                                                    <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/rahrc_beach_operations.pdf" target="_blank">Water Front Procedures</a>
+                                                    <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/rahrc_statutes_update.pdf" target="_blank">Statues &amp; House Rules</a>
+                                                    <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/ats_info.pdf" target="_blank">Tennis Information</a>
+                                                    <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/britswim_info.pdf" target="_blank">Brit swim Information</a>
                                                     <a class="dropdown-item" href="#">Orange Markers Buoys</a>
-                                                    <a class="dropdown-item" href="#">AGM Minutes 2018</a>
-                                                    <a class="dropdown-item" href="#">HSE</a>
+                                                    <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/agm_minutes_2018.pdf" target="_blank">AGM Minutes 2018</a>
+                                                    <a class="dropdown-item" href="#">HSE Plan 2017</a>
                                                     <a class="dropdown-item" href="#">Forms</a>
                                                     <a class="dropdown-item" href="#">RAHRC Bulletin</a>
                                                     <a class="dropdown-item" href="#">Blogs</a>
@@ -197,7 +197,7 @@ function Header() {
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
+                                    <li class="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>
                                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Support </a>
                                         <div class="dropdown-menu animate slideIn" >
                                             <Link className="dropdown-item" to="/aboutus">About Us</Link>

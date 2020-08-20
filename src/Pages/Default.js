@@ -1,6 +1,8 @@
 import React, { Component } from "react"
-import Home from './home'
 import { Switch, Route } from 'react-router-dom'
+import Home from './home'
+import BookableVenues from "./BookableVenues"
+import Pricing from "./Pricing"
 import AboutUs from "./Support/AboutUs"
 import ChannelPartner from "./Support/ChannelPartner"
 import ContactUs from "./Support/ContactUs"
@@ -14,6 +16,8 @@ class Default extends Component {
         return (
             <Switch>
                 <Route strict exact path="/" component={Home} />
+                <Route exact path="/bookablevenues" component={BookableVenues} />
+                <Route exact path="/pricing" component={Pricing} />
                 <Route exact path="/aboutus" component={AboutUs} />
                 <Route exact path="/channelpartner" component={ChannelPartner} />
                 <Route exact path="/contactus" component={ContactUs} />
