@@ -145,28 +145,68 @@ function Header() {
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="nav-item"> <a class="nav-link" href="#">Services</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" href="#">Venues</a> </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
-                                        <div class="dropdown-menu animate slideIn" >
-                                            <a class="dropdown-item" href="#">Success Stories</a>
-                                            <a class="dropdown-item" href="#">User Guide</a>
-                                            <a class="dropdown-item" href="#">How to do Video</a>
+                                        <div class="dropdown-menu dropdown-menu-right membroz-megamenu animate slideIn" >
+                                        <div class="row no-gutters">
+                                                <div class="col-md-3"> 
+                                                <h6 class="head-drp">Information</h6>
+                                            <a class="dropdown-item" href="#">Information Guide</a>
+                                            <a class="dropdown-item" href="#">Water Front Procedures</a>
+                                            <a class="dropdown-item" href="#">Statues &amp; House Rules</a>
+                                            <a class="dropdown-item" href="#">Tennis Information</a>
+                                            <a class="dropdown-item" href="#">Brit swim Information</a>
+                                            <a class="dropdown-item" href="#">Orange Markers Buoys</a>
+                                            <a class="dropdown-item" href="#">AGM Minutes 2018</a>
+                                            <a class="dropdown-item" href="#">HSE</a>
+                                            <a class="dropdown-item" href="#">Forms</a>
+                                            <a class="dropdown-item" href="#">RAHRC Bulletin</a>
                                             <a class="dropdown-item" href="#">Blogs</a>
-                                            <a class="dropdown-item" href="#">FAQs</a> </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Schedules </a>
-                                        <div class="dropdown-menu animate slideIn" >
-                                            <a class="dropdown-item" href="#">Success Stories</a>
-                                            <a class="dropdown-item" href="#">User Guide</a>
-                                            <a class="dropdown-item" href="#">How to do Video</a>
-                                            <a class="dropdown-item" href="#">Blogs</a>
-                                            <a class="dropdown-item" href="#">FAQs</a> </div>
+                                            <a class="dropdown-item" href="#">FAQs</a> 
+                                                </div>
+                                                <div class="col-md-3"> 
+                                                <h6 class="head-drp">Schedules</h6>
+                                            <a class="dropdown-item" href="#">RAH Library</a>
+                                            <a class="dropdown-item" href="#">Calendar 2020</a>
+                                            <a class="dropdown-item" href="#">RAHRC Pool Schedule</a>
+                                            <a class="dropdown-item" href="#">MAF Pool Schedule</a>
+                                            <a class="dropdown-item" href="#">Sports Hall Booking</a> 
+                                            <a class="dropdown-item" href="#">Tennis Court Booking</a> 
+                                                </div>
+                                                <div class="col-md-3"> 
+                                                <h6 class="head-drp">Sport Sections</h6>
+                                            <a class="dropdown-item" href="#">Powerboat</a>
+                                            <a class="dropdown-item" href="#">Badminton</a>
+                                            <a class="dropdown-item" href="#">Dance for children & Pre Teens</a>
+                                            <a class="dropdown-item" href="#">Fishing</a>
+                                            <a class="dropdown-item" href="#">Golf Club</a> 
+                                            <a class="dropdown-item" href="#">Hockey</a> 
+                                            <a class="dropdown-item" href="#">Kayak</a> 
+                                                </div>
+                                                <div class="col-md-3"> 
+                                                <h6 class="head-drp">Social Sections</h6>
+                                            <a class="dropdown-item" href="#">Toastmasters</a>
+                                            <a class="dropdown-item" href="#">Bridge</a>
+                                            <a class="dropdown-item" href="#">Marah Tots</a> 
+                                            <a class="dropdown-item" href="#">Canadian</a>
+                                            <a class="dropdown-item" href="#">Hispanic</a>
+                                            <a class="dropdown-item" href="#">Holland</a> 
+                                            <a class="dropdown-item" href="#">Pakistan</a> 
+                                                </div>
+                                        </div>
+                                            </div>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
                                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Support </a>
-                                        <div class="dropdown-menu animate slideIn" > <a class="dropdown-item" href="#">About Us</a> <a class="dropdown-item" href="#">Our Team</a> <a class="dropdown-item" href="#">Contact Us</a> <a class="dropdown-item" href="#">Channel Partner</a> <a class="dropdown-item" href="#">Videos</a> </div>
+                                        <div class="dropdown-menu animate slideIn" > 
+                                        <a class="dropdown-item" href="#">About Us</a> 
+                                        <a class="dropdown-item" href="#">Organisation</a>
+                                        <a class="dropdown-item" href="#">Our Team</a> 
+                                        <a class="dropdown-item" href="#">Contact Us</a> 
+                                        <a class="dropdown-item" href="#">Channel Partner</a> 
+                                        <a class="dropdown-item" href="#">Videos</a> 
+                                        </div>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="#">Login</a> </li>
                                 </ul>
