@@ -63,7 +63,7 @@ function Header() {
                      */}
                     <div id="header" class="header-inner fixed-top">
                         <div class="container">
-                            <a class="navbar-brand" href="#"><img class="img-fluid logo-white logo-show" src={logo} alt="" /> <img class="img-fluid logo-blue logo-hide" src={logo} alt="" /></a>
+                            <Link to="/" className="navbar-brand"><img class="img-fluid logo-white logo-show" src={logo} alt="" /> <img class="img-fluid logo-blue logo-hide" src={logo} alt="" /></Link>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
@@ -149,63 +149,63 @@ function Header() {
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
                                         <div class="dropdown-menu dropdown-menu-right membroz-megamenu animate slideIn" >
-                                        <div class="row no-gutters">
-                                                <div class="col-md-3"> 
-                                                <h6 class="head-drp">Information</h6>
-                                            <a class="dropdown-item" href="#">Information Guide</a>
-                                            <a class="dropdown-item" href="#">Water Front Procedures</a>
-                                            <a class="dropdown-item" href="#">Statues &amp; House Rules</a>
-                                            <a class="dropdown-item" href="#">Tennis Information</a>
-                                            <a class="dropdown-item" href="#">Brit swim Information</a>
-                                            <a class="dropdown-item" href="#">Orange Markers Buoys</a>
-                                            <a class="dropdown-item" href="#">AGM Minutes 2018</a>
-                                            <a class="dropdown-item" href="#">HSE</a>
-                                            <a class="dropdown-item" href="#">Forms</a>
-                                            <a class="dropdown-item" href="#">RAHRC Bulletin</a>
-                                            <a class="dropdown-item" href="#">Blogs</a>
-                                            <a class="dropdown-item" href="#">FAQs</a> 
+                                            <div class="row no-gutters">
+                                                <div class="col-md-3">
+                                                    <h6 class="head-drp">Information</h6>
+                                                    <a class="dropdown-item" href="#">Information Guide</a>
+                                                    <a class="dropdown-item" href="#">Water Front Procedures</a>
+                                                    <a class="dropdown-item" href="#">Statues &amp; House Rules</a>
+                                                    <a class="dropdown-item" href="#">Tennis Information</a>
+                                                    <a class="dropdown-item" href="#">Brit swim Information</a>
+                                                    <a class="dropdown-item" href="#">Orange Markers Buoys</a>
+                                                    <a class="dropdown-item" href="#">AGM Minutes 2018</a>
+                                                    <a class="dropdown-item" href="#">HSE</a>
+                                                    <a class="dropdown-item" href="#">Forms</a>
+                                                    <a class="dropdown-item" href="#">RAHRC Bulletin</a>
+                                                    <a class="dropdown-item" href="#">Blogs</a>
+                                                    <a class="dropdown-item" href="#">FAQs</a>
                                                 </div>
-                                                <div class="col-md-3"> 
-                                                <h6 class="head-drp">Schedules</h6>
-                                            <a class="dropdown-item" href="#">RAH Library</a>
-                                            <a class="dropdown-item" href="#">Calendar 2020</a>
-                                            <a class="dropdown-item" href="#">RAHRC Pool Schedule</a>
-                                            <a class="dropdown-item" href="#">MAF Pool Schedule</a>
-                                            <a class="dropdown-item" href="#">Sports Hall Booking</a> 
-                                            <a class="dropdown-item" href="#">Tennis Court Booking</a> 
+                                                <div class="col-md-3">
+                                                    <h6 class="head-drp">Schedules</h6>
+                                                    <a class="dropdown-item" href="#">RAH Library</a>
+                                                    <a class="dropdown-item" href="#">Calendar 2020</a>
+                                                    <a class="dropdown-item" href="#">RAHRC Pool Schedule</a>
+                                                    <a class="dropdown-item" href="#">MAF Pool Schedule</a>
+                                                    <a class="dropdown-item" href="#">Sports Hall Booking</a>
+                                                    <a class="dropdown-item" href="#">Tennis Court Booking</a>
                                                 </div>
-                                                <div class="col-md-3"> 
-                                                <h6 class="head-drp">Sport Sections</h6>
-                                            <a class="dropdown-item" href="#">Powerboat</a>
-                                            <a class="dropdown-item" href="#">Badminton</a>
-                                            <a class="dropdown-item" href="#">Dance for children & Pre Teens</a>
-                                            <a class="dropdown-item" href="#">Fishing</a>
-                                            <a class="dropdown-item" href="#">Golf Club</a> 
-                                            <a class="dropdown-item" href="#">Hockey</a> 
-                                            <a class="dropdown-item" href="#">Kayak</a> 
+                                                <div class="col-md-3">
+                                                    <h6 class="head-drp">Sport Sections</h6>
+                                                    <a class="dropdown-item" href="#">Powerboat</a>
+                                                    <a class="dropdown-item" href="#">Badminton</a>
+                                                    <a class="dropdown-item" href="#">Dance for children & Pre Teens</a>
+                                                    <a class="dropdown-item" href="#">Fishing</a>
+                                                    <a class="dropdown-item" href="#">Golf Club</a>
+                                                    <a class="dropdown-item" href="#">Hockey</a>
+                                                    <a class="dropdown-item" href="#">Kayak</a>
                                                 </div>
-                                                <div class="col-md-3"> 
-                                                <h6 class="head-drp">Social Sections</h6>
-                                            <a class="dropdown-item" href="#">Toastmasters</a>
-                                            <a class="dropdown-item" href="#">Bridge</a>
-                                            <a class="dropdown-item" href="#">Marah Tots</a> 
-                                            <a class="dropdown-item" href="#">Canadian</a>
-                                            <a class="dropdown-item" href="#">Hispanic</a>
-                                            <a class="dropdown-item" href="#">Holland</a> 
-                                            <a class="dropdown-item" href="#">Pakistan</a> 
+                                                <div class="col-md-3">
+                                                    <h6 class="head-drp">Social Sections</h6>
+                                                    <a class="dropdown-item" href="#">Toastmasters</a>
+                                                    <a class="dropdown-item" href="#">Bridge</a>
+                                                    <a class="dropdown-item" href="#">Marah Tots</a>
+                                                    <a class="dropdown-item" href="#">Canadian</a>
+                                                    <a class="dropdown-item" href="#">Hispanic</a>
+                                                    <a class="dropdown-item" href="#">Holland</a>
+                                                    <a class="dropdown-item" href="#">Pakistan</a>
                                                 </div>
-                                        </div>
                                             </div>
+                                        </div>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
                                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Support </a>
-                                        <div class="dropdown-menu animate slideIn" > 
-                                        <a class="dropdown-item" href="#">About Us</a> 
-                                        <a class="dropdown-item" href="#">Organisation</a>
-                                        <a class="dropdown-item" href="#">Our Team</a> 
-                                        <a class="dropdown-item" href="#">Contact Us</a> 
-                                        <a class="dropdown-item" href="#">Channel Partner</a> 
-                                        <a class="dropdown-item" href="#">Videos</a> 
+                                        <div class="dropdown-menu animate slideIn" >
+                                            <Link className="dropdown-item" to="/aboutus">About Us</Link>
+                                            <Link className="dropdown-item" to="/organisation">Organisation</Link>
+                                            <Link className="dropdown-item" to="/ourTeam">Our Team</Link>
+                                            <Link className="dropdown-item" to="/contactus">Contact Us</Link>
+                                            <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link>
+                                            <Link className="dropdown-item" to="/gallery">Gallery</Link>
                                         </div>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="#">Login</a> </li>
