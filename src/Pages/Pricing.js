@@ -8,7 +8,6 @@ export default function Pricing() {
                     <div class="row">
                         <div class="col-12 text-center">
                             <h2 class="mrb30">Club Activity Charges</h2>
-                            <h2 class="mrb30">Club Activity Charges</h2>
                         </div>
                     </div>
                     <div >

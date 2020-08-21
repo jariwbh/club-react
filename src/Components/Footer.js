@@ -67,52 +67,46 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="col-md-3">
-                                <h3 className="footer-head">Surat, India</h3>
+                                <h3 className="footer-head">Address</h3>
                                 <div className="faddres">
-                                    <p><i className="custom-map-marker-icon" ></i> Krtya Technologies Pvt. Ltd.<br />
-                                        A1 – 03, Milestone Habitat,<br />
-                                            Kailash Nagar, Sagrampura<br />
-                                                Surat – 395002 India</p>
-                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com">contact@membroz.com</a></p>
-                                    <p><i className="custom-phone-icon"></i> <a href="tel:+918758363925">+91 87583 63925</a> </p>
+                                    <p><i className="custom-map-marker-icon" ></i>Ras Al Hamra Recreation Centre.<br />
+                                    PO Box 81 Muscat,<br />
+                                    Postal Code 100<br />
+                                    Sultanate of Oman,</p>
+                                    <p><i className="custom-phone-icon"></i> <a href="tel:+918758363925">Fax:24564089 / 24675380</a> </p>
+                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com">rahrc@pdo.co.om</a></p>
                                 </div>
                                 <div className="social-icons-main mrt15">
-                                    <a href="https://www.facebook.com/Membroz.Managemembership/" className="social-link" target="_blank">
+                                    <a href="https://www.facebook.com/Ras-Al-Hamra-The-Club-342801119710857/" className="social-link" target="_blank">
                                         <i className="custom-facebook-icon"></i></a>
                                     <a href="https://twitter.com/membroz" className="social-link" target="_blank">
                                         <i className="custom-twitter-icon"></i></a>
                                     <a href="https://plus.google.com/u/0/111329599158279368554" className="social-link" target="_blank">
                                         <i className="custom-google-plus-icon"></i></a>
-                                    <a href="https://www.instagram.com/membroz.software/" className="social-link" target="_blank">
+                                    <a href="https://www.instagram.com/rahtheclub/" className="social-link" target="_blank">
                                         <i className="custom-instagram-icon"></i></a>
                                     <a href="https://www.linkedin.com/company/membroz-managemembership/" className="social-link" target="_blank">
                                         <i className="custom-linkedin-icon"></i></a> </div>
                             </div>
                             <div className="col-md-3">
-                                <h3 className="footer-head">Mumbai, India</h3>
+                                <h3 className="footer-head">Telephone</h3>
                                 <div className="faddres">
-                                    <p><i className="custom-map-marker-icon" ></i> Krtya Technologies Pvt. Ltd.<br />
-                                                    106, Bldg No.2, Sector 3,<br />
-                                                        Millenium Business Park (MBP),
-                                                            Mahape,<br />
-                                                            Navi Mumbai – 400710 India</p>
-                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com">contact@membroz.com</a></p>
-                                    <p><i className="custom-phone-icon"></i> <a href="tel:+917778822666">+91 77788 22666</a>, <br />
-                                        <a href="tel:+919372025882">+91 93720 25882</a></p>
+                                    <p><i className="custom-phone-icon" ></i> 
+                                    General Enquiries: 24677321<br />
+                                    Accounts: 24678157 /24671086/ 24673260<br />
+                                    Bar Administration: 24675436<br />
+                                    Bulk Store: 24675815<br/>
+                                    General Manager: 24673188
+                                    </p>
+                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com">rahrc@pdo.co.om</a></p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt-5">
+                        <div className="row mt-12 text-center text-xl-right">
                             <div className="col-xl-6 d-flex justify-content-center justify-content-xl-start order-2 order-xl-1">
-                                <div className="text-center text-xl-left">
-                                    © Copyright Membroz. Power by <a className="copy-link" href="http://www.krtya.com/" target="_blank">Krtya Technologies Pvt. Ltd.</a>
+                                <div className="text-center text-xl-right">
+                                    © Copyright RAS AL HAMRA
                                 </div>
-                            </div>
-                            <div className="col-xl-6 xs-lg-mrb30 d-flex justify-content-center justify-content-xl-end order-1 order-xl-2" >
-                                <div className="ie-dflex text-center text-xl-right">
-                                    <i className="custom-paypal-icon mr-3"></i><i className="custom-stripe-icon mr-3"></i><i className="custom-razorpay-icon mr-3"></i><i className="custom-payu-icon mr-3"></i><i className="custom-paytm-icon"></i>
-                                </div>
-
                             </div>
                         </div>
                     </div>

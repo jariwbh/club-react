@@ -10,7 +10,6 @@ export default function BookableVenues() {
                     <div class="row">
                         <div class="col-12 text-center">
                             <h2 class="mrb30">Bookable Venues</h2>
-                            <h2 class="mrb30">Bookable Venues</h2>
                         </div>
                     </div>
                     <div >
@@ -35,7 +34,7 @@ export default function BookableVenues() {
             <Cards />
             <section class="common-block pb-0">
                 <div class="container">
-                    <div >
+                <div >
                         <h5>Pre-Requisites</h5>
                         <p> Kindly fill in the below details and send them back to us.</p>
                         <ol>
@@ -54,7 +53,7 @@ export default function BookableVenues() {
                         </ol>
                         <p>For PDO department meetings,away days,etc please provide Department account No. WBS or CC.</p>
                         <p>If you would like to serve alcohol at your event an alcohol ROP license fee is to be paid of OMR 20.</p>
-
+                        
                         <h5>Payment Terms:</h5>
                         <ul>
                             <li>For PDO members through their membership accounts.</li>

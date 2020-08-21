@@ -145,7 +145,7 @@ function Header() {
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
+                                   
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
                                         <div class="dropdown-menu dropdown-menu-center membroz-megamenu animate slideIn" >
@@ -197,12 +197,13 @@ function Header() {
                                             </div>
                                         </div>
                                     </li>
+                                    <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
                                     <li class="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>
                                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Support </a>
                                         <div class="dropdown-menu animate slideIn" >
                                             <Link className="dropdown-item" to="/aboutus">About Us</Link>
                                             <Link className="dropdown-item" to="/organisation">Organisation</Link>
-                                            <Link className="dropdown-item" to="/ourTeam">Our Team</Link>
+                                            {/* <Link className="dropdown-item" to="/ourTeam">Our Team</Link> */}
                                             <Link className="dropdown-item" to="/contactus">Contact Us</Link>
                                             {/* <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link> */}
                                             <Link className="dropdown-item" to="/gallery">Gallery</Link>
