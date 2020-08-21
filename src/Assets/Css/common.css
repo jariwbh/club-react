@@ -452,7 +452,7 @@ a.btn-third:before {
 	}
 	
 	.navbar-light .navbar-nav .nav-link {
-	   color: #7D2C40;
+	   color: #7D2C40 !important;
 	}
 	.dropdown-menu {
 		background:#ffffff; 		
@@ -525,7 +525,7 @@ a.btn-third:before {
 	}
 
 	.navbar-light .navbar-nav .nav-link {
-	   color: #7D2C40;
+	   color: #7D2C40 !important;
 	}
 	.dropdown-menu {
 		background:#ffffff; 		
@@ -543,13 +543,6 @@ a.btn-third:before {
 	}
 	.moodboard-main > img {
 		width: 92%;		
-	}
-	.dropdown-menu-center {
-		right: auto;
-		left: 50%;
-		-webkit-transform: translate(-50%, 0);
-		-o-transform: translate(-50%, 0);
-		transform: translate(-50%, 0);
 	}
 	
 }
@@ -644,14 +637,7 @@ a.btn-third:before {
 	.moodboard-main > img {
 		width: 90%;		
 	}
-	.dropdown-menu-center {
-		right: auto;
-		left: 50%;
-		-webkit-transform: translate(-50%, 0);
-		-o-transform: translate(-50%, 0);
-		transform: translate(-50%, 0);
-	}
-	
+
 }
 @media only screen and (min-width: 1200px) {
 	.inner-head {
@@ -784,7 +770,8 @@ a.btn-third:before {
 
 
 .common-block {
-	padding: 45px 0;
+	padding: 150px 0 0px;
+    position: relative;
 }
 
 
@@ -1545,11 +1532,6 @@ div.dropdown-menu {
 /* about us css end */ 
 
 /* contact us css start */ 
-.contact-inner-banner {
-    padding: 150px 0 0px;
-    position: relative;
-    color: #ffffff;
-}
 .contact-us-banner {
 	/* background-image: url(../Images/contact-us-image.jpg); */
 	background-repeat: no-repeat;
