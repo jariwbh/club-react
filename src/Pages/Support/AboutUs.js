@@ -1,9 +1,10 @@
 import React from 'react'
 import Layout from '../../Components/Layout'
+
 export default function AboutUs() {
     return (
         <Layout>
-            <section class="inner-banner about-us-banner">
+            <section class="common-block">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
