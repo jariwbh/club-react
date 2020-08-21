@@ -39,7 +39,7 @@ class Footer extends Component {
         const { is_visible, details } = this.state;
         return (
             <React.Fragment>
-                <footer className="footer-main">
+                <footer className="footer-main mt-auto">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3">

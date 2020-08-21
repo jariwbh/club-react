@@ -1,5 +1,4 @@
 import React from 'react'
-import '../Assets/Css/aboutus.css'
 import Layout from '../Components/Layout'
 export default function Pricing() {
     return (

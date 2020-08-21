@@ -469,7 +469,7 @@ a.btn-third:before {
 		margin-top: 30px;
 	}
 	.footer-main { 
-	  border-radius: 50px 50px 0 0;	
+	  border-radius: 0px 0px 0 0;	
 	}
 	.feature-text-main {		
 		margin:45px auto;
@@ -539,7 +539,7 @@ a.btn-third:before {
 
 	}
 	.footer-main { 
-	  border-radius: 70px 70px 0 0;	
+	  border-radius: 0px 0px 0 0;	
 	}
 	.moodboard-main > img {
 		width: 92%;		
@@ -555,7 +555,7 @@ a.btn-third:before {
 		color: #ffffff;
 	}
 		.inner-banner{
-		padding: 180px 0 70px;
+		padding: 150px 0 70px;
 		position: relative;
 		color: #ffffff;	
 	}
@@ -632,7 +632,7 @@ a.btn-third:before {
 		margin-bottom: 0;
 	}
 	.footer-main { 
-	  border-radius: 108px 108px 0 0;	
+	  border-radius: 0px 0px 0 0;	
 	}
 	.moodboard-main > img {
 		width: 90%;		
@@ -727,7 +727,7 @@ a.btn-third:before {
 
 	}
 	.footer-main { 
-	  border-radius: 160px 160px 0 0;	
+	  border-radius: 0px 0px 0 0;	
 	}	
 }
 
@@ -1321,7 +1321,7 @@ div.dropdown-menu {
     right: 0;
     left: 0;
     z-index: 1;
-    background: rgba(0,0,0,.63);
+    /* background: rgba(0,0,0,.63); */
 	
 }
 .inner-text-main {
@@ -1498,3 +1498,52 @@ div.dropdown-menu {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
+
+/* about us css start */ 
+.about-us-banner {
+	/* background-image: url(../Images/about-us-bg.jpg); */
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;	
+	color: #707B8E
+}
+
+.custom-aboutus-design-icon {
+	background-position: 0 -258px;
+	height: 50px;        
+    width: 50px;
+}
+.custom-aboutus-develop-icon {
+	background-position: -50px -258px;
+	height: 50px;        
+    width: 50px;
+}
+.custom-aboutus-enhance-icon {
+	background-position: -100px -258px;
+	height: 50px;        
+    width: 50px;
+}
+
+/* about us css end */ 
+
+/* contact us css start */ 
+.contact-inner-banner {
+    padding: 150px 0 0px;
+    position: relative;
+    color: #ffffff;
+}
+.contact-us-banner {
+	/* background-image: url(../Images/contact-us-image.jpg); */
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;	
+	color: #707B8E
+}
+
+.custom-cu-envelope-icon {
+	background-position: -64px -182px;
+	height: 16px;        
+    width: 16px;
+}
+
+/* contact us css end */

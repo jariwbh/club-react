@@ -1,18 +1,13 @@
 import React from 'react'
-import '../../Assets/Css/aboutus.css'
 import Layout from '../../Components/Layout'
 export default function AboutUs() {
     return (
         <Layout>
-            <br />
-            <br />
-            <br />
-
-            <section className="common-block pb-0">
+            <section class="inner-banner about-us-banner">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
-                            <h2 className="mrb30">About Us</h2>
+                            <h2 className="mrb30" >About Us</h2>
                         </div>
                     </div>
                     <div >
@@ -25,7 +20,7 @@ export default function AboutUs() {
                         <p className="text-justify">
                             Most activities at the Club are run by volunteer members who form "sections", such as the Ras al Hamra Amateur Dramatic Society, the Astronomy section, and so on. The sections can not only make full use of RAHRC facilities but also receive some financial support from the club. And if there is no section that covers your particular interest, you can start one up yourself!
                         </p>
-                        <p className="text-justify" style={{ fontFamily: 'cursive' }}> Sports and Social Recreation facilities at the RAH Club:</p>
+                        <h6 className="text-justify"> Sports and Social Recreation facilities at the RAH Club:</h6>
 
                         <p className="text-justify">
                             Arts & Craft Centre, Boat Club, Book Library, Bulk Store, Cinema/Theatre Hall, Golf Club, Gym, Ladies Association, Snooker Room, Squash Courts, Swimming Pool,  Tennis Courts, Video Shop, Volleyball Court.
