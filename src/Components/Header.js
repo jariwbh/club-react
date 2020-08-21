@@ -148,7 +148,7 @@ function Header() {
                                     <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
-                                        <div class="dropdown-menu dropdown-menu-right membroz-megamenu animate slideIn" >
+                                        <div class="dropdown-menu dropdown-menu-center membroz-megamenu animate slideIn" >
                                             <div class="row no-gutters">
                                                 <div class="col-md-3">
                                                     <h6 class="head-drp">Information</h6>
@@ -162,8 +162,8 @@ function Header() {
                                                     <a class="dropdown-item" href="#">HSE Plan 2017</a>
                                                     <a class="dropdown-item" href="#">Forms</a>
                                                     <a class="dropdown-item" href="#">RAHRC Bulletin</a>
-                                                    <a class="dropdown-item" href="#">Blogs</a>
-                                                    <a class="dropdown-item" href="#">FAQs</a>
+                                                    <Link className="dropdown-item" to="/blogs">Blogs</Link>
+                                                    <Link className="dropdown-item" to="/faqs">FAQs</Link>
                                                 </div>
                                                 <div class="col-md-3">
                                                     <h6 class="head-drp">Schedules</h6>
@@ -204,11 +204,11 @@ function Header() {
                                             <Link className="dropdown-item" to="/organisation">Organisation</Link>
                                             <Link className="dropdown-item" to="/ourTeam">Our Team</Link>
                                             <Link className="dropdown-item" to="/contactus">Contact Us</Link>
-                                            <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link>
+                                            {/* <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link> */}
                                             <Link className="dropdown-item" to="/gallery">Gallery</Link>
                                         </div>
                                     </li>
-                                    <li class="nav-item"> <a class="nav-link" href="#">Login</a> </li>
+                                    <li class="nav-item"> <Link class="nav-link" to="/login">Login</Link> </li>
                                 </ul>
                             </div>
 

@@ -9,6 +9,10 @@ import ContactUs from "./Support/ContactUs"
 import Gallery from "./Support/Gallery"
 import Organisation from "./Support/Organisation"
 import OurTeam from "./Support/OurTeam"
+import Login from "./Login"
+import FAQs from "./FAQs"
+import Blog from "./Blog"
+import Register from "./Register"
 
 class Default extends Component {
 
@@ -24,6 +28,10 @@ class Default extends Component {
                 <Route exact path="/gallery" component={Gallery} />
                 <Route exact path="/organisation" component={Organisation} />
                 <Route exact path="/ourTeam" component={OurTeam} />
+                <Route exact path="/blogs" component={Blog} />
+                <Route exact path="/faqs" component={FAQs} />
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/register" component={Register} />
 
             </Switch>
         );
