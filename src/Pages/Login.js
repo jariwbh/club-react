@@ -3,6 +3,7 @@ import Layout from '../Components/Layout'
 import { Link } from 'react-router-dom'
 
 export default function Login() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section class="common-block">

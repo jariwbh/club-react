@@ -1,8 +1,11 @@
 import React from 'react'
 import Layout from '../Components/Layout'
-import Cards from '../Components/cards'
+import VenueCards from '../Components/Venue/VenueCards';
+import VenueTable from '../Components/Venue/VenueTable';
+
 
 export default function BookableVenues() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section class="common-block pb-0">
@@ -12,7 +15,7 @@ export default function BookableVenues() {
                             <h2 class="mrb30">Bookable Venues</h2>
                         </div>
                     </div>
-                    <div >
+                    <div class="mb-4" >
                         <p className="text-justify">
                             It is possible to book venues at RAHRC for meetings, conferences, parties or other (private) gatherings.
                         </p>
@@ -31,10 +34,11 @@ export default function BookableVenues() {
                     </div>
                 </div>
             </section>
-            <Cards />
-            <section class="common-block pb-0">
+            <VenueTable />
+            <VenueCards />
+            <section class="pb-0 mt-4">
                 <div class="container">
-                <div >
+                    <div >
                         <h5>Pre-Requisites</h5>
                         <p> Kindly fill in the below details and send them back to us.</p>
                         <ol>
@@ -53,7 +57,7 @@ export default function BookableVenues() {
                         </ol>
                         <p>For PDO department meetings,away days,etc please provide Department account No. WBS or CC.</p>
                         <p>If you would like to serve alcohol at your event an alcohol ROP license fee is to be paid of OMR 20.</p>
-                        
+
                         <h5>Payment Terms:</h5>
                         <ul>
                             <li>For PDO members through their membership accounts.</li>

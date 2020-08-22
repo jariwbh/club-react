@@ -282,7 +282,7 @@ a.btn-third:before {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .client-logo .img-fluid {
-        width: 100%;		
+		width: 100%;
     }
 	.ie-dflex {
 		display: flex;
@@ -339,7 +339,7 @@ a.btn-third:before {
 	height: 531px;
 }
 .strip-height {
-	min-height: 531px;
+	min-height: 400px;
 }
 
 
@@ -1526,11 +1526,9 @@ div.dropdown-menu {
 	height: 50px;        
     width: 50px;
 }
-
 /* about us css end */ 
 
 /* contact us css start */ 
-
 .contact-us-banner {
 	/* background-image: url(../Images/contact-us-image.jpg); */
 	background-repeat: no-repeat;
@@ -1544,5 +1542,21 @@ div.dropdown-menu {
 	height: 16px;        
     width: 16px;
 }
-
 /* contact us css end */
+
+/* Gallery css start */
+.zoom {
+	transition: transform .3s;
+	width: 290px;
+	height: 200px;
+  }
+  
+  .zoom:hover {
+	-ms-transform: scale(1.5); 
+	-webkit-transform: scale(1.5); 
+	transform: scale(1.5); 
+  }
+/* Gallery css end */
+.dropdown-menu-16rem {
+	min-width: 16rem;
+}

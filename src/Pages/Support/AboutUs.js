@@ -2,13 +2,14 @@ import React from 'react'
 import Layout from '../../Components/Layout'
 
 export default function AboutUs() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section class="common-block">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 text-center">
-                            <h2 className="mrb30" >About Us</h2>
+                        <div class="col-12 animate-top text-center">
+                            <h2 className="mrb30">About Us</h2>
                         </div>
                     </div>
                     <div >
@@ -29,6 +30,6 @@ export default function AboutUs() {
                     </div>
                 </div>
             </section>
-        </Layout>
+        </Layout >
     )
 }

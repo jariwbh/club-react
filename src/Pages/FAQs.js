@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import $ from 'jquery';
 
 export default function FAQs() {
+    window.scrollTo(0, 0);
     $(document).ready(function () {
         $('#collapseOne').on('click', function () {
             $(this).toggleClass('collapsed');

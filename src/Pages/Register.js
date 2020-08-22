@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../Components/Layout'
 
 function Register() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section class="common-block">
@@ -38,7 +39,7 @@ function Register() {
                             <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                             <label class="form-check-label" for="exampleCheck1">I AGREE TO THE SITE'S TERMS AND CONDITIONS & PRIVACY POLICY.</label>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block">Sign In</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
                     </div>
                 </div>
             </section>

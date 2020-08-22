@@ -67,10 +67,33 @@ function Header() {
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+                                    <li class="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+                                    <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
+                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sports </a>
+                                        <div class="dropdown-menu dropdown-menu-16rem animate slideIn" >
+                                            <a class="dropdown-item" href="#">Powerboat</a>
+                                            <a class="dropdown-item" href="#">Badminton</a>
+                                            <a class="dropdown-item" href="#">Dance for children &amp; Pre Teens</a>
+                                            <a class="dropdown-item" href="#">Fishing</a>
+                                            <a class="dropdown-item" href="#">Golf Club</a>
+                                            <a class="dropdown-item" href="#">Hockey</a>
+                                            <a class="dropdown-item" href="#">Kayak</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>
+                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Club </a>
+                                        <div class="dropdown-menu animate slideIn" >
+                                            <Link className="dropdown-item" to="/aboutus">About Us</Link>
+                                            <Link className="dropdown-item" to="/organisation">Organisation</Link>
+                                            {/* <Link className="dropdown-item" to="/ourTeam">Our Team</Link> */}
+                                            <Link className="dropdown-item" to="/contactus">Contact Us</Link>
+                                            {/* <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link> */}
+                                            <Link className="dropdown-item" to="/gallery">Gallery</Link>
+                                        </div>
+                                    </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
-                                        <div class="dropdown-menu dropdown-menu-center membroz-megamenu animate slideIn" >
+                                        <div class="dropdown-menu dropdown-menu-right membroz-megamenu animate slideIn" >
                                             <div class="row no-gutters">
                                                 <div class="col-md-4">
                                                     <h6 class="head-drp">Information</h6>
@@ -107,29 +130,6 @@ function Header() {
                                                     <a class="dropdown-item" href="#">Pakistan</a>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
-                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sports </a>
-                                        <div class="dropdown-menu animate slideIn" >
-                                            <a class="dropdown-item" href="#">Powerboat</a>
-                                            <a class="dropdown-item" href="#">Badminton</a>
-                                            <a class="dropdown-item" href="#">Dance for children &amp; Pre Teens</a>
-                                            <a class="dropdown-item" href="#">Fishing</a>
-                                            <a class="dropdown-item" href="#">Golf Club</a>
-                                            <a class="dropdown-item" href="#">Hockey</a>
-                                            <a class="dropdown-item" href="#">Kayak</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>
-                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Club </a>
-                                        <div class="dropdown-menu animate slideIn" >
-                                            <Link className="dropdown-item" to="/aboutus">About Us</Link>
-                                            <Link className="dropdown-item" to="/organisation">Organisation</Link>
-                                            {/* <Link className="dropdown-item" to="/ourTeam">Our Team</Link> */}
-                                            <Link className="dropdown-item" to="/contactus">Contact Us</Link>
-                                            {/* <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link> */}
-                                            <Link className="dropdown-item" to="/gallery">Gallery</Link>
                                         </div>
                                     </li>
                                     <li class="nav-item"> <Link class="nav-link" to="/login">Login</Link> </li>

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Switch, Route } from 'react-router-dom'
-import Home from './home'
+import Home from './Home'
 import BookableVenues from "./BookableVenues"
 import Pricing from "./Pricing"
 import AboutUs from "./Support/AboutUs"
@@ -13,7 +13,6 @@ import Blog from "./Blog"
 import Register from "./Register"
 
 class Default extends Component {
-
     render() {
         return (
             <Switch>

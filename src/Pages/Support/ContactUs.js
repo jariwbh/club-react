@@ -3,6 +3,7 @@ import Layout from '../../Components/Layout'
 const MapURL = "//www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=164065515217080376&ineditor=0&control=3&width=auto&height=350px&overviewmap=1&scalecontrol=1&typecontrol=0&zoom=15&long=58.498717&lat=23.6399467&domain=www&point=1&align=2&reseller=true";
 
 export default function ContactUs() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section class="common-block">

@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../../Components/Layout'
 
 export default function Organisation() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section class="common-block">

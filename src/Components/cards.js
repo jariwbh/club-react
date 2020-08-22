@@ -3,8 +3,8 @@ import * as image from './Image'
 class cards extends Component {
     render() {
         return (
-            <>
-                <section class="common-block">
+            <React.Fragment>
+                <section class="pb-0" style={{ padding: '30px 0 0px', position: 'relative' }}>
                     <div class="container">
                         <div class="row">
                             <div class="col-12 text-center">
@@ -51,7 +51,7 @@ class cards extends Component {
                         </div>
                     </div>
                 </section>
-            </>
+            </React.Fragment>
         )
     }
 }
