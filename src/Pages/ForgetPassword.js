@@ -1,16 +1,16 @@
 import React from 'react'
-import Layout from '../../Components/Layout'
+import Layout from '../Components/Layout'
 
-export default function Gallery() {
+function ForgetPassword() {
     return (
         <Layout>
             <section className="common-block">
                 <div className="container">
-                    <div class="inner-text-main animate-top">
-                        <h1>Gallery</h1>
-                    </div>
+                    <h1>Forget Password</h1>
                 </div>
             </section>
         </Layout>
     )
 }
+
+export default ForgetPassword

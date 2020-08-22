@@ -4,11 +4,13 @@ import Layout from '../../Components/Layout'
 export default function OurTeam() {
     return (
         <Layout>
-            <br />
-            <br />
-            <br />
-            <br />
-            <h1> Our Team </h1>
+            <section className="common-block">
+                <div className="container">
+                    <div class="inner-text-main animate-top">
+                        <h1>Our Team</h1>
+                    </div>
+                </div>
+            </section>
         </Layout>
     )
 }

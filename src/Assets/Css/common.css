@@ -768,13 +768,11 @@ a.btn-third:before {
 	color: #FFFFFF;
 }
 
-
 .common-block {
-	padding: 150px 0 0px;
-    position: relative;
+	padding: 120px 0 0px;
+	position: relative;
+	padding-bottom: 30px;
 }
-
-
 
 .inline-block {
 	display: inline-block !important;
@@ -1532,6 +1530,7 @@ div.dropdown-menu {
 /* about us css end */ 
 
 /* contact us css start */ 
+
 .contact-us-banner {
 	/* background-image: url(../Images/contact-us-image.jpg); */
 	background-repeat: no-repeat;

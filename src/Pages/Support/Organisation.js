@@ -4,7 +4,7 @@ import Layout from '../../Components/Layout'
 export default function Organisation() {
     return (
         <Layout>
-            <section class="contact-inner-banner contact-us-banner">
+            <section class="common-block">
                 <div class="container">
                     <div class="inner-text-main animate-top">
                         <h2 >Organisation</h2>

@@ -5,16 +5,12 @@ const MapURL = "//www.weebly.com/weebly/apps/generateMap.php?map=google&elementi
 export default function ContactUs() {
     return (
         <Layout>
-            <section class="contact-inner-banner contact-us-banner">
+            <section class="common-block">
                 <div class="container">
                     <div class="inner-text-main animate-top">
                         <h2 >Contact Us</h2>
                     </div>
-                </div>
-            </section>
-
-            <section class="common-block">
-                <div class="container">
+                    <br /><br />
                     <div class="row">
                         <div class="col-sm-6 col-md-4 mb-3">
                             <h3 class="h4 mb-3">Sultanate of Oman</h3>
@@ -49,11 +45,15 @@ export default function ContactUs() {
                             </address>
                         </div>
                     </div>
+
+                    <div className="white-box-no-animate p-20">
+                        <iframe src={MapURL} frameBorder="0" height="350" width="100%" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                    </div>
                 </div>
             </section>
-            <div className="white-box-no-animate p-20">
-                <iframe src={MapURL} frameBorder="0" height="350" width="100%" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
-            </div>
+
+
+
         </Layout>
     )
 }

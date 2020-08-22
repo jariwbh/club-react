@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../Components/Layout'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
     return (
         <Layout>
-            <section class="contact-inner-banner contact-us-banner">
+            <section class="common-block">
                 <div class="container col-md-3">
                     <div class="inner-text-main animate-top">
                         <h2 >Login</h2>
@@ -23,14 +24,13 @@ export default function Login() {
                             <label class="form-check-label" for="exampleCheck1">Remember me</label>
                             <a href="#" class="float-right">Forgot Password?</a>
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign In</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
                         <div class="mt-4">
-                            Need an account? <a href="#">Sign Up</a>
+                            Need an account? <Link to="/register">Register</Link>
                         </div>
                     </div>
                 </div>
             </section>
-            <br />
         </Layout>
     )
 }
