@@ -67,90 +67,12 @@ function Header() {
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdownLbl"> Solutions </a>
-                                        <div class="dropdown-menu membroz-megamenu animate slideIn" id="navbarDropdown" aria-labelledby="navbarDropdownLbl">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6"> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                    <div class="flex-shrink-1 text-center px-3"><i class="custom-club-resort-icon"></i></div>
-                                                    <div class="pl-0">
-                                                        <div class="mb-0 font-bg-nav">Club, Resort &amp; Hotel</div>
-                                                        <span class="font-sm-nav"> Membership, Booking, Front-desk, Coupon/Discount, Housekeeping</span> </div>
-                                                </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-tour-timeshare-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Tour, Travel &amp; Timeshare</div>
-                                                            <span class="font-sm-nav"> Package, CRM, Booking, Payment, RCI, Season calendar</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-gym-yoga-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Gym, Yoga Studio &amp; Fitness Center</div>
-                                                            <span class="font-sm-nav"> Membership, CRM, Appointment, Schedule, Diet Plan, Payment, POS</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-spa-salon-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Spa, Salon &amp; Welness Center</div>
-                                                            <span class="font-sm-nav"> Package, Service, CRM, Appointment, Payment, POS</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-restaurant-pubs-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Restaurant, Pubs &amp; Bar</div>
-                                                            <span class="font-sm-nav"> Membership, CRM, Booking, Payment, Coupon, POS, Kitchen</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-service-maintenance-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Service &amp; Maintenance</div>
-                                                            <span class="font-sm-nav"> Customer, CRM, Process automation, Payment, Sales &amp; Purchase</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-dietician-nutritionist-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Dietician &amp; Nutritionist</div>
-                                                            <span class="font-sm-nav"> Membership, CRM, Diet Plan, Appointment, Payment, POS</span> </div>
-                                                    </a> </div>
-                                                <div class="col-md-6 pr-2"> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                    <div class="flex-shrink-1 text-center px-3"><i class="custom-community-education-icon"></i></div>
-                                                    <div class="pl-0">
-                                                        <div class="mb-0 font-bg-nav">Community &amp; Education</div>
-                                                        <span class="font-sm-nav"> Admissions, Programs, CRM, Donation, Event, Holiday Calendar</span> </div>
-                                                </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-real-estate-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Real Estate</div>
-                                                            <span class="font-sm-nav"> Membership, CRM, Payment, Facility booking, Event, Maintenance</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-doctor-clinic-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Doctor Clinic &amp; Polyclinic</div>
-                                                            <span class="font-sm-nav"> Appointment, CRM, Payment, Patient History &amp; Prescription, Holiday Calendar</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-finance-insurance-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Finance, Insurance &amp; Law</div>
-                                                            <span class="font-sm-nav"> Membership, CRM, Payment, Claim, Advisory, Holiday Calendar</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-automative-car-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Automative &amp; Car Rental</div>
-                                                            <span class="font-sm-nav"> Clients, CRM, Online Booking, Payment, Claim, Maintenance</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-event-ticket-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Event &amp; Ticket Booking</div>
-                                                            <span class="font-sm-nav"> CRM, Ticket Booking, Invitation, Payment, POS</span> </div>
-                                                    </a> <a class="dropdown-item d-flex align-items-center px-0" href="#">
-                                                        <div class="flex-shrink-1 text-center px-3"><i class="custom-consulting-coaching-icon"></i></div>
-                                                        <div class="pl-0">
-                                                            <div class="mb-0 font-bg-nav">Consulting &amp; Coaching Service</div>
-                                                            <span class="font-sm-nav"> Course, Fees, CRM, Student Mobile App, Assessment, Feedback</span> </div>
-                                                    </a> </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                   
+                                <li class="nav-item"><Link className="nav-link" to="/">Home</Link></li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
                                         <div class="dropdown-menu dropdown-menu-center membroz-megamenu animate slideIn" >
                                             <div class="row no-gutters">
-                                                <div class="col-md-3">
+                                                <div class="col-md-4">
                                                     <h6 class="head-drp">Information</h6>
                                                     <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/info_guide_27.02.2020.pdf" target="_blank">Information Guide</a>
                                                     <a class="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/rahrc_beach_operations.pdf" target="_blank">Water Front Procedures</a>
@@ -165,7 +87,7 @@ function Header() {
                                                     <Link className="dropdown-item" to="/blogs">Blogs</Link>
                                                     <Link className="dropdown-item" to="/faqs">FAQs</Link>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-4">
                                                     <h6 class="head-drp">Schedules</h6>
                                                     <a class="dropdown-item" href="#">RAH Library</a>
                                                     <a class="dropdown-item" href="#">Calendar 2020</a>
@@ -174,17 +96,7 @@ function Header() {
                                                     <a class="dropdown-item" href="#">Sports Hall Booking</a>
                                                     <a class="dropdown-item" href="#">Tennis Court Booking</a>
                                                 </div>
-                                                <div class="col-md-3">
-                                                    <h6 class="head-drp">Sport Sections</h6>
-                                                    <a class="dropdown-item" href="#">Powerboat</a>
-                                                    <a class="dropdown-item" href="#">Badminton</a>
-                                                    <a class="dropdown-item" href="#">Dance for children & Pre Teens</a>
-                                                    <a class="dropdown-item" href="#">Fishing</a>
-                                                    <a class="dropdown-item" href="#">Golf Club</a>
-                                                    <a class="dropdown-item" href="#">Hockey</a>
-                                                    <a class="dropdown-item" href="#">Kayak</a>
-                                                </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-4">
                                                     <h6 class="head-drp">Social Sections</h6>
                                                     <a class="dropdown-item" href="#">Toastmasters</a>
                                                     <a class="dropdown-item" href="#">Bridge</a>
@@ -198,8 +110,19 @@ function Header() {
                                         </div>
                                     </li>
                                     <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
+                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sports </a>
+                                        <div class="dropdown-menu animate slideIn" >
+                                            <a class="dropdown-item" href="#">Powerboat</a>
+                                            <a class="dropdown-item" href="#">Badminton</a>
+                                            <a class="dropdown-item" href="#">Dance for children &amp; Pre Teens</a>
+                                            <a class="dropdown-item" href="#">Fishing</a>
+                                            <a class="dropdown-item" href="#">Golf Club</a>
+                                            <a class="dropdown-item" href="#">Hockey</a>
+                                            <a class="dropdown-item" href="#">Kayak</a>
+                                        </div>
+                                    </li>
                                     <li class="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>
-                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Support </a>
+                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Club </a>
                                         <div class="dropdown-menu animate slideIn" >
                                             <Link className="dropdown-item" to="/aboutus">About Us</Link>
                                             <Link className="dropdown-item" to="/organisation">Organisation</Link>
