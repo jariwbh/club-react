@@ -65,12 +65,12 @@ export class Home extends Component {
                         <div class="row">
                             <div class="col-md-5 col-lg-5 col-xl-5 d-flex align-items-center order-2 order-md-1">
                                 <div class="feature-text-main">
-                                    <h2 class="feature-space">Automation </h2>
-                                    <p class="page-feature-intro feature-space">With workflow automation, you have the power to automate tedious and repetitive tasks in simple steps. Membroz can send a response every time a new member is added. It will automatically set the member's privileges based on membership rules. It will send a message when membership is about to expire. Send out offers &amp; promo code with a single click. Auto-generate reports, invoices &amp; other documents.</p>
+                                    <h2 class="feature-space">RAS AL HAMRA CLUB </h2>
+                                    <p class="page-feature-intro feature-space">Welcome to RAS AL HAMRA CLUB, a perfect natural beauty within the Ras al Hamra residential area. The RAHRC provides opportunities for social, recreational and sporting activities for the benefit of RAH staff and their families. Membership requires the payment of a modest monthly fee, which is automatically charged to the members’ account.</p>
                                 </div>
                             </div>
                             <div class="offset-md-1 col-md-6 offset-lg-1 col-lg-6 offset-xl-1 col-xl-6 position-relative strip-height d-flex align-items-center justify-content-xl-end justify-content-sm-center order-1 order-md-2">
-                                <div class="d-flex justify-content-end justify-content-sm-center justify-content-md-end justify-content-lg-end"> <img class="img-fluid" src={pic10} srcset={pic10} alt="" /> </div>
+                                <div class="d-flex justify-content-end justify-content-sm-center justify-content-md-end justify-content-lg-end"> <img class="img-fluid" src={pic5} srcset={pic7} alt="" /> </div>
                             </div>
                         </div>
                     </div>
@@ -83,8 +83,8 @@ export class Home extends Component {
                             </div>
                             <div class="offset-md-1 col-md-5 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5 d-flex align-items-center">
                                 <div class="feature-text-main">
-                                    <h2 class="feature-space">3rd party API Integration </h2>
-                                    <p class="page-feature-intro feature-space">Membroz can easily integrate with 3rd Party application with click of button. Some popular Payment gateway like Stripe, PayU, RazorPay, PayPal etc integration are provided builtin so you don't need do anything. You can configure your choice of Communication channel for SMS, Email, Whatsapp etc providing API keys and any other security detail. </p>
+                                    <h2 class="feature-space">CLUB Facilities </h2>
+                                    <p class="page-feature-intro feature-space">The Ras al Hamra  (RAH) Club boasts a number of facilities for both social and recreational activities. It has coffee shop and restaurant as well as swimming pools for  adults and children, private beaches, gymnasiums and nine-hole golf course which  are under construction. All payments, whether for food, or sports instruction, are made through an electronic membership card and recovered from the member’s salary.</p>
                                 </div>
                             </div>
                         </div>
@@ -95,27 +95,12 @@ export class Home extends Component {
                         <div class="row">
                             <div class="col-md-5 col-lg-5 col-xl-5 d-flex align-items-center order-2 order-md-1">
                                 <div class="feature-text-main">
-                                    <h2 class="feature-space">Automation </h2>
-                                    <p class="page-feature-intro feature-space">With workflow automation, you have the power to automate tedious and repetitive tasks in simple steps. Membroz can send a response every time a new member is added. It will automatically set the member's privileges based on membership rules. It will send a message when membership is about to expire. Send out offers &amp; promo code with a single click. Auto-generate reports, invoices &amp; other documents.</p>
+                                    <h2 class="feature-space">CLUB Activities </h2>
+                                    <p class="page-feature-intro feature-space">Most activities at the Club are run by volunteer members who form "sections", such as the Ras al Hamra Amateur Dramatic Society, the Astronomy section, and so on. The sections can not only make full use of RAHRC facilities but also receive some financial support from the club. And if there is no section that covers your particular interest, you can start one up yourself!</p>
                                 </div>
                             </div>
                             <div class="offset-md-1 col-md-6 offset-lg-1 col-lg-6 offset-xl-1 col-xl-6 position-relative strip-height d-flex align-items-center justify-content-xl-end justify-content-sm-center order-1 order-md-2">
                                 <div class="d-flex justify-content-end justify-content-sm-center justify-content-md-end justify-content-lg-end"> <img class="img-fluid" src={pic10} srcset={pic10} alt="" /> </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="mrt0">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-6 col-xl-6 position-relative strip-height d-flex align-items-center justify-content-xl-start justify-content-sm-center">
-                                <div class="d-flex justify-content-start justify-content-sm-center justify-content-md-start justify-content-lg-start"> <img class="img-fluid" src={pic11} srcset={pic11} alt="" /> </div>
-                            </div>
-                            <div class="offset-md-1 col-md-5 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5 d-flex align-items-center">
-                                <div class="feature-text-main">
-                                    <h2 class="feature-space">3rd party API Integration </h2>
-                                    <p class="page-feature-intro feature-space">Membroz can easily integrate with 3rd Party application with click of button. Some popular Payment gateway like Stripe, PayU, RazorPay, PayPal etc integration are provided builtin so you don't need do anything. You can configure your choice of Communication channel for SMS, Email, Whatsapp etc providing API keys and any other security detail. </p>
-                                </div>
                             </div>
                         </div>
                     </div>

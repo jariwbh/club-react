@@ -30,6 +30,6 @@ export default function AboutUs() {
                     </div>
                 </div>
             </section>
-        </Layout >
+        </Layout>
     )
 }

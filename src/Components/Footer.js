@@ -81,7 +81,7 @@ class Footer extends Component {
                                 <div className="faddres">
                                     <p><i className="custom-phone-icon" ></i>
                                     General Enquiries: 24677321<br />
-                                    Accounts: 24678157 /24671086/ 24673260<br />
+                                    Accounts: 24678157 /<br /> 24671086 / 24673260<br />
                                     Bar Administration: 24675436<br />
                                     Bulk Store: 24675815<br />
                                     General Manager: 24673188

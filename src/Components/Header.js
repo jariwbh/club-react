@@ -8,59 +8,8 @@ import { logo } from './Image'
 function Header() {
     return (
         <React.Fragment>
-            {/* <header>
-                <Navbar className="navbar-expand-lg navbar-dark p-0" expand="lg">
-                    <div id="header" className="header-inner fixed-top">
-                        <div className="container">
-                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                            <Navbar.Collapse id="basic-navbar-nav">
-                                <Link to="/" className="navbar-brand"><img className="img-fluid" style={{ height: "70px", width: "70" }} src={logo} alt="" /></Link>
-                                <Nav className="navbar-nav ml-auto">
-                                    <li className="nav-item"> <Link className="nav-link" to="/">Mock Tests</Link> </li>
-                                    <li className="nav-item"> <Link className="nav-link" to="/Teachers">Teachers</Link> </li>
-                                    <li className="nav-item"> <Link className="nav-link" to="/Contactus">Contact Us</Link> </li>
-                                    <li className="nav-item"> <Link className="nav-link" to="/Signup">Sign Up</Link> </li>
-                                    <li className="nav-item"> <Link className="nav-link" to="/Signin">Sign In</Link> </li>
-                                    <NavDropdown title="Dashboard" data-hover="dropdown" id="basic-nav-dropdown">
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/dashboard">My Dashboard</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/StudentProfile">My Profile</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/Logout">Logout</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/dashboard">My Dashboard</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/StudentProfile">My Profile</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/Logout">Logout</Link></NavDropdown.Item>
-                                    </NavDropdown>
-                                    <NavDropdown title="Dashboard" data-hover="dropdown" id="basic-nav-dropdown">
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/dashboard">My Dashboard</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/StudentProfile">My Profile</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/Logout">Logout</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/dashboard">My Dashboard</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/StudentProfile">My Profile</Link></NavDropdown.Item>
-                                        <NavDropdown.Item ><Link className="dropdown-item" to="/Logout">Logout</Link></NavDropdown.Item>
-                                    </NavDropdown>
-                                </Nav>
-                            </Navbar.Collapse>
-                        </div>
-                    </div>
-                </Navbar>
-            </header> */}
             <header>
                 <nav class="navbar navbar-expand-lg theclub-menu navbar-light p-0">
-                    {/* 
-	   <div id="top-bar" class="top-bar">
-                        <div class="container">
-                            <div class="w-100">
-                                <div class="d-flex ">
-                                    <span class="ml-auto pr-3"><i class="custom-phone-icon"></i> <a href="tel:+918758363925" class="top-bar-link">+91 87583 63925</a></span>
-                                    <span class="pr-3"><i class="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com" class="top-bar-link">contact@membroz.com</a></span>
-                                    <div class="dropdown">
-                                        <a class="dropdown-toggle p-0 lang-menu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenuLink"> English </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Spanish</a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     */}
                     <div id="header" class="header-inner fixed-top">
                         <div class="container">
                             <Link to="/" className="navbar-brand"><img class="img-fluid logo-white logo-show" src={logo} alt="" /> <img class="img-fluid logo-blue logo-hide" src={logo} alt="" /></Link>
@@ -71,13 +20,13 @@ function Header() {
                                     <li class="nav-item"><Link className="nav-link" to="/bookablevenues">Venues</Link></li>
                                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sports </a>
                                         <div class="dropdown-menu dropdown-menu-16rem animate slideIn" >
-                                            <a class="dropdown-item" href="#">Powerboat</a>
-                                            <a class="dropdown-item" href="#">Badminton</a>
-                                            <a class="dropdown-item" href="#">Dance for children &amp; Pre Teens</a>
+                                            <Link className="dropdown-item" to="/powerboat">Powerboat</Link>
+                                            <Link className="dropdown-item" to="/badminton">Badminton</Link>
+                                            <Link className="dropdown-item" to="/dance">Dance for children &amp; Pre Teens</Link>
                                             <a class="dropdown-item" href="#">Fishing</a>
                                             <a class="dropdown-item" href="#">Golf Club</a>
-                                            <a class="dropdown-item" href="#">Hockey</a>
-                                            <a class="dropdown-item" href="#">Kayak</a>
+                                            <Link className="dropdown-item" to="/hockey">Hockey</Link>
+                                            <Link className="dropdown-item" to="/kayak">Kayak</Link>
                                         </div>
                                     </li>
                                     <li class="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>
@@ -121,8 +70,8 @@ function Header() {
                                                 </div>
                                                 <div class="col-md-4">
                                                     <h6 class="head-drp">Social Sections</h6>
-                                                    <a class="dropdown-item" href="#">Toastmasters</a>
-                                                    <a class="dropdown-item" href="#">Bridge</a>
+                                                    <Link className="dropdown-item" to="/toastmasters">Toastmasters</Link>
+                                                    <Link className="dropdown-item" to="/bridge">Bridge</Link>
                                                     <a class="dropdown-item" href="#">Marah Tots</a>
                                                     <a class="dropdown-item" href="#">Canadian</a>
                                                     <a class="dropdown-item" href="#">Hispanic</a>
