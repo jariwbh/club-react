@@ -10,108 +10,36 @@ function Canadian() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 animate-top text-center">
-                            <h2 className="mrb30">Canadian - RAHRC Toastmasters and Gavel Club</h2>
+                            <h2 className="mrb30">Ras Al Hamra Canadian Section News Update</h2>
                         </div>
                     </div>
                     {/* <img className="img-fluid mb-3" src={image.kayakimg1} /> */}
                     <p className="text-justify">
-                        RAHRC Toastmasters and Gavel Section” is functioning within Ras Al Hamra Recreation Club that helps its members to develop public speaking and leadership skills.
+                        Hello! Bonjour!<br/>
+                        In case you haven't heard of us yet, the Canadian Section is a registered section of the RAHRC. Its mandate is to promote Canadian culture, and organize activities and events with a Canadian flavor for RAHRC members and their guests. 
                     </p>
-                    <h6>That brings in following benefits :</h6>
+                    <h6>The Canadian Section committee is made up of:</h6>
                     <ul>
-                        <li> Develop communication and language skills</li>
-                        <li> Learn to think quickly and clearly</li>
-                        <li> Become an effective listener</li>
-                        <li>Evaluate effectively</li>
-                        <li>Use body language and visual aids</li>
-                        <li>Advance social skills</li>
-                        <li>Improve job or promotion prospects</li>
-                        <li>Experience benefits of a toastmasters club without having to initially join</li>
-                        <li>Problem-solving</li>
-                        <li>Impromptu Speaking</li>
-                        <li>Managing Nervousness</li>
-                        <li> Introducing a Speaker</li>
-                        <li>Preparation &amp; Practice</li>
-                        <li>Speech Structure &amp; Organization</li>
-                        <li>Beginning &amp; Concluding a Speech</li>
-                        <li>Body Language / Vocal Variety</li>
-                        <li>Meeting in larger groups</li>
-                        <li> Motivating people</li>
-                        <li>Conducting business meetings</li>
-                        <li>Knowing an Audience</li>
-                        <li>Improve your public speaking skills.</li>
-                        <li>Build leadership skills.</li>
-                        <li>Maximize your potential.</li>
-                        <li>Enjoy unlimited personal growth.</li>
-                        <li> Work on networking in a small and supportive environment.</li>
-                        <li> Gain support and practice writing speeches and presenting in a group setting.</li>
-                        <li>Gain a competitive advantage in the workplace.</li>
-                        <li>Build greater self-confidence and self-awareness</li>
-                    </ul>
-                    <h4 className="mrb10">We have followimng two categories of the members :</h4>
-                    <p className="text-justify">
-                        Toastmasters Club: for people of age group above 18 Years .
-                    </p>
-                    <p className="text-justify">
-                        Gavel Club: for people of age group between 11 years and 18 Years .
-                    </p>
-                    <p className="text-justify">
-                        Objective of the section: To improve communication and build leadership skills.
-                    </p>
-                    <h4 className="mrb10">Main activities (and when):</h4>
-                    <p className="text-justify">
-                        Toastmasters Club: Meeting every Monday from 6 PM to 7 PM (mostly in Falcon meeting room at Ras Al Hamra Recreation Club)
-                    </p>
-                    <p className="text-justify">
-                        Gavel Club: Meeting every Tuesday from 5 PM to 6:30 PM (mostly in Falcon meeting room at Ras Al Hamra Recreation Club)
-                    </p>
-                    <h6>In both the above clubs (for the respective age categories) meet weekly and follow basic agenda as below:</h6>
-                    <ul>
-                        <li>Prepared speeches – Members are given opportunities to prepare, rehearse, and then deliver presentations in front of their fellow members.</li>
-                        <li>Speech evaluations – Whenever you speak in Toastmasters, you receive helpful and supportive evaluations from your peers.</li>
-                        <li>Impromptu speaking – Members practice speaking “off the cuff” for one or two minutes by responding to general topics of interest (table topics).</li>
+                        <li>Murray Mulrooney, our Chairman, is from Innisfail, Alberta and is a Senior OR engineer at PDO in Central Project Delivery. He has been in Muscat since 2014.</li>
+                        <li>Richard Winkel, our Treasurer, is from Fort McMurray, Alberta and has been in Oman since August 2015. He works as a Technical Integrity Engineer in the South Sour Operations Group in PDO.</li>
+                        <li>Beth Farmer, our Secretary, is from Calgary, Alberta and is a Petrophysical Engineer at PDO in Qarn Alam cluster. She has been in Muscat since August 2015.</li>
+                        <li>Mark Hamm is from Calgary, Alberta and is a Senior Reservoir Engineer at PDO in the Qarn Alam Steam asset. He has been in Muscat since September 2014. </li>
                     </ul>
                     <p className="text-justify">
-                        Come and visiting our club and experience the sessions with us. Although it is recommended to inform us that you are are coming, you could as well just walk in. Attending a meeting as a guest is free and there’s no obligation to participate. You decide when you are comfortable and ready to take up a role.
-                    <br /><br />
-                        Toastmasters International is for people of all backgrounds who would like to explore or build their speaking and leadership skills. RAHRC toastmasters is run under the umbrella of Toastmaster International within the RAHRC concession area.
+                        The Canadian Section has an email account which will be used to communicate details of our activities to Canadians living in Oman. To be added to the distribution list, please send us your contact information to <a href="mailto:canadiansinoman@gmail.com">canadiansinoman@gmail.com</a>. Also, if you are interested in joining the Canadian Section committee, please let us know, we would love to meet you! 
                     </p>
-                    <div className="mt-3">
-                        <h5>Contact Us</h5>
-
-                        <p className="text-justify">
-                            Contact details (e-mail, phone-number):
-                            <br />
-                            Email : r_nayakam@yahoo.com    GSM : +968-9295 6887 (Ram Nayakam)
-                            <br />
-                            Email : daniel.appiah@gmx.de     GSM : +968 97201228 (Daniel Appiah)
-                            <br />
-                            Social media accounts: Facebook group, WhatsApp etc. (how to join?)
-                            <br />
-                            Facebook : @rahrctoastmasters
-                            <br />
-                            Whatsapp : +968-9295 6887
-                        </p>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg1} className="zoom img-fluid" />
-                                </div>
-                            </div>
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg2} className="zoom img-fluid" />
-                                </div>
-                            </div>
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg3} className="zoom img-fluid" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p className="text-justify">
+                        We generally plan for two Canadian events per year, the first is our Annual Canadian Stampede Party at RAHRC â€“ March 3, 2017 will be the 24th Annual Event.
+                    </p>
+                    <p className="text-justify">
+                        This is a great party and usually sells out in record time, attesting to its popularity. 
+                    </p>
+                    <p className="text-justify">
+                        The second event is our Annual Canadian Thanksgiving dinner at RAHRC which is held on or close to the date of the Canadian Thanksgiving in October. Watch for details and don't miss the chance to share a turkey dinner with other Canadians.
+                    </p>
+                    <p className="text-justify">
+                        Organization of these events is done through a volunteer committee, so feel free to contact us if you would like to help out. We are always looking for new people with new ideas to participate. And don't hesitate to suggest other event ideas if you have some!
+                    </p>
                 </div>
             </section>
         </Layout>

@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../../../Components/Layout'
 import * as image from '../../../Components/Image'
-
 function Pakistan() {
     window.scrollTo(0, 0);
     return (
@@ -10,108 +9,98 @@ function Pakistan() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 animate-top text-center">
-                            <h2 className="mrb30">Pakistan - RAHRC Toastmasters and Gavel Club</h2>
+                            <h2 className="mrb30">Ras Al Hamra Pakistan Section News Update</h2>
                         </div>
                     </div>
-                    {/* <img className="img-fluid mb-3" src={image.kayakimg1} /> */}
-                    <p className="text-justify">
-                        RAHRC Toastmasters and Gavel Section” is functioning within Ras Al Hamra Recreation Club that helps its members to develop public speaking and leadership skills.
-                    </p>
-                    <h6>That brings in following benefits :</h6>
-                    <ul>
-                        <li> Develop communication and language skills</li>
-                        <li> Learn to think quickly and clearly</li>
-                        <li> Become an effective listener</li>
-                        <li>Evaluate effectively</li>
-                        <li>Use body language and visual aids</li>
-                        <li>Advance social skills</li>
-                        <li>Improve job or promotion prospects</li>
-                        <li>Experience benefits of a toastmasters club without having to initially join</li>
-                        <li>Problem-solving</li>
-                        <li>Impromptu Speaking</li>
-                        <li>Managing Nervousness</li>
-                        <li> Introducing a Speaker</li>
-                        <li>Preparation &amp; Practice</li>
-                        <li>Speech Structure &amp; Organization</li>
-                        <li>Beginning &amp; Concluding a Speech</li>
-                        <li>Body Language / Vocal Variety</li>
-                        <li>Meeting in larger groups</li>
-                        <li> Motivating people</li>
-                        <li>Conducting business meetings</li>
-                        <li>Knowing an Audience</li>
-                        <li>Improve your public speaking skills.</li>
-                        <li>Build leadership skills.</li>
-                        <li>Maximize your potential.</li>
-                        <li>Enjoy unlimited personal growth.</li>
-                        <li> Work on networking in a small and supportive environment.</li>
-                        <li> Gain support and practice writing speeches and presenting in a group setting.</li>
-                        <li>Gain a competitive advantage in the workplace.</li>
-                        <li>Build greater self-confidence and self-awareness</li>
-                    </ul>
-                    <h4 className="mrb10">We have followimng two categories of the members :</h4>
-                    <p className="text-justify">
-                        Toastmasters Club: for people of age group above 18 Years .
-                    </p>
-                    <p className="text-justify">
-                        Gavel Club: for people of age group between 11 years and 18 Years .
-                    </p>
-                    <p className="text-justify">
-                        Objective of the section: To improve communication and build leadership skills.
-                    </p>
-                    <h4 className="mrb10">Main activities (and when):</h4>
-                    <p className="text-justify">
-                        Toastmasters Club: Meeting every Monday from 6 PM to 7 PM (mostly in Falcon meeting room at Ras Al Hamra Recreation Club)
-                    </p>
-                    <p className="text-justify">
-                        Gavel Club: Meeting every Tuesday from 5 PM to 6:30 PM (mostly in Falcon meeting room at Ras Al Hamra Recreation Club)
-                    </p>
-                    <h6>In both the above clubs (for the respective age categories) meet weekly and follow basic agenda as below:</h6>
-                    <ul>
-                        <li>Prepared speeches – Members are given opportunities to prepare, rehearse, and then deliver presentations in front of their fellow members.</li>
-                        <li>Speech evaluations – Whenever you speak in Toastmasters, you receive helpful and supportive evaluations from your peers.</li>
-                        <li>Impromptu speaking – Members practice speaking “off the cuff” for one or two minutes by responding to general topics of interest (table topics).</li>
-                    </ul>
-                    <p className="text-justify">
-                        Come and visiting our club and experience the sessions with us. Although it is recommended to inform us that you are are coming, you could as well just walk in. Attending a meeting as a guest is free and there’s no obligation to participate. You decide when you are comfortable and ready to take up a role.
-                    <br /><br />
-                        Toastmasters International is for people of all backgrounds who would like to explore or build their speaking and leadership skills. RAHRC toastmasters is run under the umbrella of Toastmaster International within the RAHRC concession area.
-                    </p>
-                    <div className="mt-3">
-                        <h5>Contact Us</h5>
-
+                    <img className="img-fluid mb-4 pl-5" src={image.pakistan} />
+                    {/* <div >
                         <p className="text-justify">
-                            Contact details (e-mail, phone-number):
-                            <br />
-                            Email : r_nayakam@yahoo.com    GSM : +968-9295 6887 (Ram Nayakam)
-                            <br />
-                            Email : daniel.appiah@gmx.de     GSM : +968 97201228 (Daniel Appiah)
-                            <br />
-                            Social media accounts: Facebook group, WhatsApp etc. (how to join?)
-                            <br />
-                            Facebook : @rahrctoastmasters
-                            <br />
-                            Whatsapp : +968-9295 6887
+                            The Badminton section is among the popular sports sections of the RAHRC.
+                            Badminton is played in a shared, ‘multi-purpose’ facility in the RAHRC sports hall.
+                            We have 6 courts and about 6 sessions of 2 – 3 hours each, every week.
+                            The facilities are open to all members without prior booking.
+                            All groups, the ladies, the children, the adults and families enjoy their own dedicated slots.
+                            The section hosts an annual tournament for all categories,
+                            which is played with a good mix of competition & fun.
                         </p>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg1} className="zoom img-fluid" />
-                                </div>
-                            </div>
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg2} className="zoom img-fluid" />
-                                </div>
-                            </div>
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg3} className="zoom img-fluid" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <h3 className="mrb30 mt-4">Play Timings & Basic Guidelines</h3>
+                        <h5>Timings</h5>
+                        <p className="text-justify">
+                            Badminton court is part of the multipurpose sports hall located in RAHRC, next to the Tennis courts. <br />
+                        Please note the timeslots allocated by the club management for Badminton sessions as mentioned below:
+                        </p>
+                        <p className="text-justify">Note:</p>
+                        <p className="text-justify">
+                            1.  Any changes to the above may be announced by the club management / badminton section committee in Announcement section of this website<br />
+                            2.  Adults:  Include children above 15 years of age<br />
+                            3.  Saturdays sessions are only for RAHRC members. Guests are not allowed.<br />
+                            4.  In addition to the above fixed slots, members may book the courts for badminton, during the ‘one-off’ slots available in the weekly sports hall schedule, by contacting the front desk directly
+                        </p>
+                        <h5 className="mrb10 mt-4">Basic Guidelines to be complied during the badminton sessions:</h5>
+                        <p className="text-justify">
+                            1.  Safety of yourself and all other members are foremost important to us. Please fully comply with the following safety rules:<br />
+                                - Only non-marking shoes shall be used by all members<br />
+                                - Walking / running inside the courts during play shall be avoided<br />
+                                - Children below 8 years are not allowed inside the play area.<br />
+                                - If you find any water / liquid spills, please contact the cleaning staff<br />
+                                - No other games / sports activities allowed during the badminton session<br />
+                                - Follow some warm-up / stretching exercises before you start your playing<br />
+                            2.  Badminton Racquets to be brought by the members<br />
+                            3. Shuttles will be provided by the badminton section. Members are kindly requested to use the shuttles consciously - considering the budget allotted.<br />
+                            4. Allotted category of members in the above table (Adults OR Family) will be given first priority. If the court is vacant, other category members present can use. Ladies’ session is exclusive and male players are strictly not allowed.<br />
+                            5. If all the badminton courts are occupied by the members, you are required to wait till the existing players complete 15 minutes (if not playing with points) or two games.<br />
+                            6. Guests are not allowed on Saturdays.
+                        </p>
+                    </div> */}
+                    {/* <table className="table table-striped" border='5' >
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>08:00 AM TO 09:30 AM</td>
+                                <td>LADIES ONLY</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>08:00 PM TO 10:0 PM</td>
+                                <td>ADULTS</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>07:30 PM TO 10:0 PM</td>
+                                <td>ADULTS</td>
+                            </tr>
+                            <tr>
+                                <td>Thuesday</td>
+                                <td>08:00 AM TO 11:00 AM</td>
+                                <td>LADIES ONLY</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>02:00 PM TO 04:00 PM</td>
+                                <td>CHILDREN ONLY</td>
+                            </tr>
+                            <tr>
+                                <td>SATURDAY</td>
+                                <td>08:00 AM TO 10:00 AM</td>
+                                <td>ADULTS</td>
+                            </tr>
+                            <tr>
+                                <td>SATURDAY</td>
+                                <td>10:00 AM TO 11:30 AM</td>
+                                <td>CHILDREN COACHING - 2 COURTS</td>
+                            </tr>
+                            <tr>
+                                <td>SATURDAY</td>
+                                <td>10:00 AM TO 11:30 AM</td>
+                                <td>CHILDREN FAMILIES - 4 COURTS</td>
+                            </tr>
+                            <tr>
+                                <td>SATURDAY</td>
+                                <td>11:30 AM TO 12:30 AM</td>
+                                <td>CHILDREN FAMILIES - 6 COURTS</td>
+                            </tr>
+                        </tbody>
+                    </table> */}
                 </div>
             </section>
         </Layout>

@@ -10,106 +10,151 @@ function MarahTots() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 animate-top text-center">
-                            <h2 className="mrb30">MarahTots-RAHRC Toastmasters and Gavel Club</h2>
+                            <h2 className="mrb30">Welcome to Marah Tots!</h2>
                         </div>
                     </div>
                     {/* <img className="img-fluid mb-3" src={image.kayakimg1} /> */}
-                    <p className="text-justify">
-                        RAHRC Toastmasters and Gavel Section” is functioning within Ras Al Hamra Recreation Club that helps its members to develop public speaking and leadership skills.
-                    </p>
-                    <h6>That brings in following benefits :</h6>
-                    <ul>
-                        <li> Develop communication and language skills</li>
-                        <li> Learn to think quickly and clearly</li>
-                        <li> Become an effective listener</li>
-                        <li>Evaluate effectively</li>
-                        <li>Use body language and visual aids</li>
-                        <li>Advance social skills</li>
-                        <li>Improve job or promotion prospects</li>
-                        <li>Experience benefits of a toastmasters club without having to initially join</li>
-                        <li>Problem-solving</li>
-                        <li>Impromptu Speaking</li>
-                        <li>Managing Nervousness</li>
-                        <li> Introducing a Speaker</li>
-                        <li>Preparation &amp; Practice</li>
-                        <li>Speech Structure &amp; Organization</li>
-                        <li>Beginning &amp; Concluding a Speech</li>
-                        <li>Body Language / Vocal Variety</li>
-                        <li>Meeting in larger groups</li>
-                        <li> Motivating people</li>
-                        <li>Conducting business meetings</li>
-                        <li>Knowing an Audience</li>
-                        <li>Improve your public speaking skills.</li>
-                        <li>Build leadership skills.</li>
-                        <li>Maximize your potential.</li>
-                        <li>Enjoy unlimited personal growth.</li>
-                        <li> Work on networking in a small and supportive environment.</li>
-                        <li> Gain support and practice writing speeches and presenting in a group setting.</li>
-                        <li>Gain a competitive advantage in the workplace.</li>
-                        <li>Build greater self-confidence and self-awareness</li>
-                    </ul>
-                    <h4 className="mrb10">We have followimng two categories of the members :</h4>
-                    <p className="text-justify">
-                        Toastmasters Club: for people of age group above 18 Years .
-                    </p>
-                    <p className="text-justify">
-                        Gavel Club: for people of age group between 11 years and 18 Years .
-                    </p>
-                    <p className="text-justify">
-                        Objective of the section: To improve communication and build leadership skills.
-                    </p>
-                    <h4 className="mrb10">Main activities (and when):</h4>
-                    <p className="text-justify">
-                        Toastmasters Club: Meeting every Monday from 6 PM to 7 PM (mostly in Falcon meeting room at Ras Al Hamra Recreation Club)
-                    </p>
-                    <p className="text-justify">
-                        Gavel Club: Meeting every Tuesday from 5 PM to 6:30 PM (mostly in Falcon meeting room at Ras Al Hamra Recreation Club)
-                    </p>
-                    <h6>In both the above clubs (for the respective age categories) meet weekly and follow basic agenda as below:</h6>
-                    <ul>
-                        <li>Prepared speeches – Members are given opportunities to prepare, rehearse, and then deliver presentations in front of their fellow members.</li>
-                        <li>Speech evaluations – Whenever you speak in Toastmasters, you receive helpful and supportive evaluations from your peers.</li>
-                        <li>Impromptu speaking – Members practice speaking “off the cuff” for one or two minutes by responding to general topics of interest (table topics).</li>
-                    </ul>
-                    <p className="text-justify">
-                        Come and visiting our club and experience the sessions with us. Although it is recommended to inform us that you are are coming, you could as well just walk in. Attending a meeting as a guest is free and there’s no obligation to participate. You decide when you are comfortable and ready to take up a role.
-                    <br /><br />
-                        Toastmasters International is for people of all backgrounds who would like to explore or build their speaking and leadership skills. RAHRC toastmasters is run under the umbrella of Toastmaster International within the RAHRC concession area.
-                    </p>
-                    <div className="mt-3">
-                        <h5>Contact Us</h5>
+                    <p className="text-justify">Marah Tots is the Petroleum Development Oman Recreation Club name for the section dealing with child and family related activities on camp.  Marah Tots includes Toddler Hut, Jumping Jacks, and Karavaan.</p>
+                    <p className="text-justify">Toddler Hut is a section of the Petroleum Development Oman Recreation Club dedicated to providing activities for PDO families with young children, ideally pregnant moms, babies, and up to age 5 years old.  Toddler Hut is run by volunteers with the aim of having one to two free playgroup sessions, five days a week.  Toddler Hut is held in its own dedicated building on the club grounds.  To learn the schedule of opening times, please email the address listed below.</p>
+                    <p className="text-justify"><strong>Jumping Jacks</strong> is for children under age 5 to expend some physical energy.  They can play on soft play equipment, ride toddler bikes, or jump in the small ball pit.  All toys are provided.  It is held three times per week in the PDO RC sports hall.  The times are Sunday and Monday, 9:45-11.30am for under 3 year olds and Wednesday, 2:30-4:30pm for under 5 year olds. </p>
+                    <p className="text-justify"><strong>Karavaan</strong> is a toddler activity group run by volunteers to help build their play and social skills. At Karavaan, toddlers are given a chance to participate in a variety of art and sensory activities, music, and lots of outdoor play.  Karavaan runs on Sunday, Tuesday, and Thursday from 9.00am-11.00am.  It is aimed at children from age 18months to 3/4 years old.  It is located next to the Golf Club registration house on the opposite end of the building. </p>
+                    <p className="text-justify">If you would like to take part in the Marah Tots experience, please join us at any of our sessions or email for more information:</p>
+                    <p><a href="mailto:toddlerhutmuscat@gmail.com">toddlerhutmuscat@gmail.com</a></p>
+                    <p>Kind regards,</p>
+                    <p>Marah Tots Committee</p>
+                </div>
 
-                        <p className="text-justify">
-                            Contact details (e-mail, phone-number):
-                            <br />
-                            Email : r_nayakam@yahoo.com    GSM : +968-9295 6887 (Ram Nayakam)
-                            <br />
-                            Email : daniel.appiah@gmx.de     GSM : +968 97201228 (Daniel Appiah)
-                            <br />
-                            Social media accounts: Facebook group, WhatsApp etc. (how to join?)
-                            <br />
-                            Facebook : @rahrctoastmasters
-                            <br />
-                            Whatsapp : +968-9295 6887
-                        </p>
+                <div className="container pt-3 white-box">
+                    <div className="row">
+                        <div className="col-12 animate-top">
+                            <h3 className="mrb10">The Toddler Hut</h3>
+                        </div>
                     </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg1} className="zoom img-fluid" />
-                                </div>
+                    {/* <img className="img-fluid mb-3" src={image.kayakimg1} /> */}
+                    <p className="text-justify">Marah Tots is the Petroleum Development Oman Recreation Club name for the section dealing with child and family related activities on camp.  Marah Tots includes Toddler Hut, Jumping Jacks, and Karavaan.</p>
+                    <p className="text-justify">Toddler Hut is a section of the Petroleum Development Oman Recreation Club dedicated to providing activities for PDO families with young children, ideally pregnant moms, babies, and up to age 5 years old.  Toddler Hut is run by volunteers with the aim of having one to two free playgroup sessions, five days a week.  Toddler Hut is held in its own dedicated building on the club grounds.  To learn the schedule of opening times, please email the address listed below.</p>
+                    <p className="text-justify"><strong>Jumping Jacks</strong> is for children under age 5 to expend some physical energy.  They can play on soft play equipment, ride toddler bikes, or jump in the small ball pit.  All toys are provided.  It is held three times per week in the PDO RC sports hall.  The times are Sunday and Monday, 9:45-11.30am for under 3 year olds and Wednesday, 2:30-4:30pm for under 5 year olds.</p>
+                    <p className="text-justify"><strong>Karavaan</strong> is a toddler activity group run by volunteers to help build their play and social skills. At Karavaan, toddlers are given a chance to participate in a variety of art and sensory activities, music, and lots of outdoor play.  Karavaan runs on Sunday, Tuesday, and Thursday from 9.00am-11.00am.  It is aimed at children from age 18months to 3/4 years old.  It is located next to the Golf Club registration house on the opposite end of the building.</p>
+                    <p className="text-justify">If you would like to take part in the Marah Tots experience, please join us at any of our sessions or email for more information:</p>
+                    <p><a href="mailto:toddlerhutmuscat@gmail.com">toddlerhutmuscat@gmail.com</a></p>
+                    <p>Kind regards,</p>
+                    <p>Marah Tots Committee</p>
+                </div>
+
+                <div className="container pt-3 white-box">
+                    <div className="row">
+                        <div className="col-12 animate-top">
+                            <h3 className="mrb10">Jumping Jacks</h3>
+                        </div>
+                    </div>
+                    {/* <img className="img-fluid mb-3" src={image.kayakimg1} /> */}
+                    <p className="text-justify">umping Jacks is a fun indoor playgroup for young children held in the PDO RC sports hall three times per week;</p>
+                    <p className="text-justify">Saturday 9.45 - 11.00</p>
+                    <p className="text-justify">Sunday 9.45 - 11.00</p>
+                    <p className="text-justify">Tuesday 14.30 - 16.30</p>
+                    <p className="text-justify">The Jumping Jacks sessions provide an invaluable outlet for development of the toddlers’ gross motor skills, especially appreciated during the hotter months.  The Sports Hall staff is responsible for setting up and packing away the equipment that the section provides.</p>
+                </div>
+
+                <div className="container pt-3 white-box">
+                    <h3>Contacts</h3>
+
+                    <div >
+                        <p className="text-justify">The toddler hut and jumping jacks are run by a group of mums who volunteer their precious time to serve on the committe or by being a keyholder. Our current committee is shown below.</p>
+                        <p className="text-justify">For general information about the toddler hut or jumping jacks, please email us at <a href="mailto:toddlerhut@yahoo.co.uk">toddlerhut@yahoo.co.uk</a>, or alternatively please contact any committee member.</p>
+                    </div>
+
+                    <table className="table table-striped " >
+                        <thead >
+                            <tr>
+                                <th scope="col"><h6>Position</h6></th>
+                                <th scope="col"><h6>Name</h6></th>
+                                <th scope="col"><h6>Tel. Office</h6></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>President</td>
+                                <td>Alyona Dyer</td>
+                                <td>98187032</td>
+                            </tr>
+                            <tr>
+                                <td>Treasurer</td>
+                                <td>Deb Pack</td>
+                                <td>97789059</td>
+                            </tr>
+                            <tr>
+                                <td>Secretary</td>
+                                <td>Abby Aubin</td>
+                                <td >98078152</td>
+                            </tr>
+                            <tr>
+                                <td>Events Coordinator</td>
+                                <td>Juliette Weytingh</td>
+                                <td >95933176</td>
+                            </tr>
+                            <tr>
+                                <td>Party Booker</td>
+                                <td>Suzanne Banning</td>
+                                <td>95647784</td>
+                            </tr>
+                            <tr>
+                                <td>Stock Controller</td>
+                                <td>Camilla Overland</td>
+                                <td>92408639</td>
+                            </tr>
+                            <tr>
+                                <td>Jumping Jacks Coordinator</td>
+                                <td>Mariam Owens</td>
+                                <td>95647275</td>
+                            </tr>
+                            <tr>
+                                <td>General Member</td>
+                                <td>TBA</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>General Member</td>
+                                <td>TBA</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div className="container pt-3 white-box">
+                    <div className="col-12 text-center">
+                        <h2 className="mrb30 ">Gallery</h2>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-6 col-md-4 mb-3">
+                            <div>
+                                <img src={image.danceimg3} className="zoom img-fluid" />
                             </div>
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg2} className="zoom img-fluid" />
-                                </div>
+                            <br />
+                            <div>
+                                <img src={image.danceimg4} className="zoom img-fluid" />
                             </div>
-                            <div className="col-md-4 mb-3">
-                                <div>
-                                    <img src={image.toastmasterimg3} className="zoom img-fluid" />
-                                </div>
+                            <br />
+                        </div>
+                        <div className="col-sm-6 col-md-4 mb-3">
+                            <div>
+                                <img src={image.danceimg5} className="zoom img-fluid" />
                             </div>
+                            <br />
+                            <div>
+                                <img src={image.danceimg6} className="zoom img-fluid" />
+                            </div>
+                            <br />
+                        </div>
+                        <div className="col-sm-6 col-md-4 mb-3">
+                            <div>
+                                <img src={image.danceimg2} className="zoom img-fluid" />
+                            </div>
+                            <br />
+                            <div>
+                                <img src={image.danceimg7} className="zoom img-fluid" />
+                            </div>
+                            <br />
                         </div>
                     </div>
                 </div>

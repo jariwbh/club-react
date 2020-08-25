@@ -72,7 +72,7 @@ class Footer extends Component {
                                     Postal Code 100<br />
                                     Sultanate of Oman,</p>
                                     <p><i className="custom-phone-icon"></i> <a href="tel:+918758363925">Fax:24564089 / 24675380</a> </p>
-                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com">rahrc@pdo.co.om</a></p>
+                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:rahrc@pdo.co.om">rahrc@pdo.co.om</a></p>
                                 </div>
 
                             </div>
@@ -86,7 +86,7 @@ class Footer extends Component {
                                     Bulk Store: 24675815<br />
                                     General Manager: 24673188
                                     </p>
-                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:contact@membroz.com">rahrc@pdo.co.om</a></p>
+                                    <p><i className="custom-envelope-icon"></i> <a href="mailto:rahrc@pdo.co.om">rahrc@pdo.co.om</a></p>
                                 </div>
                             </div>
                         </div>

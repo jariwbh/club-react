@@ -51,6 +51,8 @@ import toastmasterimg1 from '../Assets/Images/toastmaster-img-1.jpg'
 import toastmasterimg2 from '../Assets/Images/toastmaster-img-2.jpg'
 import toastmasterimg3 from '../Assets/Images/toastmaster-img-3.jpg'
 
+import pakistan from '../Assets/Images/pakistan.png'
+
 export {
     logo, demo, pic1, timesvacanza, yogatopics, clubhozo,
     pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12,
@@ -59,5 +61,6 @@ export {
     danceimg5, danceimg6, danceimg7, fishimg1, fishimg2, fishimg3, fishimg4,
     fishimg5, fishimg6, fishimg7, golfclubimg1, golfclubimg2, golfclubimg3,
     golfclubimg4, golfclubimg5, golfclubimg6, golfclubimg7, golfclubimg8, golfclubimg9,
-    golfclubimg10, kayakimg1, toastmasterimg1, toastmasterimg2, toastmasterimg3
+    golfclubimg10, kayakimg1, toastmasterimg1, toastmasterimg2, toastmasterimg3,
+    pakistan
 };
