@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../Components/Layout'
 
 function ForgetPassword() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
             <section className="common-block">

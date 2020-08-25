@@ -18,6 +18,8 @@ import Kayak from '../Pages/Sports/Kayak'
 import Powerboat from '../Pages/Sports/Powerboat'
 import Bridge from '../Pages/Resources/SocialSecation/Bridge'
 import Toastmasters from '../Pages/Resources/SocialSecation/Toastmasters'
+import Fish from '../Pages/Sports/Fish'
+import GolfClub from '../Pages/Sports/GolfClub'
 
 class Default extends Component {
     render() {
@@ -44,6 +46,9 @@ class Default extends Component {
                 <Route exact path="/hockey" component={Hockey} />
                 <Route exact path="/kayak" component={Kayak} />
                 <Route exact path="/powerboat" component={Powerboat} />
+                <Route exact path="/fish" component={Fish} />
+                <Route exact path="/golfclub" component={GolfClub} />
+
 
                 {/* social section */}
                 <Route exact path="/bridge" component={Bridge} />

@@ -6,27 +6,27 @@ export default function Login() {
     window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block">
-                <div class="container col-md-3">
-                    <div class="inner-text-main animate-top">
+            <section className="common-block">
+                <div className="container col-md-3">
+                    <div className="inner-text-main animate-top">
                         <h2 >Login</h2>
                     </div>
-                    <div class="white-box-no-animate p-20">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <div className="white-box-no-animate p-20">
+                        <div className="form-group">
+                            <label htmlFor="exampleInputEmail1">Email </label>
+                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" />
+                        <div className="form-group">
+                            <label htmlFor="exampleInputPassword1">Password</label>
+                            <input type="password" className="form-control" id="exampleInputPassword1" />
                         </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                            <a href="#" class="float-right">Forgot Password?</a>
+                        <div className="form-group form-check">
+                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                            <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
+                            <a href="#" className="float-right">Forgot Password?</a>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
-                        <div class="mt-4">
+                        <button type="submit" className="btn btn-primary btn-lg btn-block">Login</button>
+                        <div className="mt-4">
                             Need an account? <Link to="/register">Register</Link>
                         </div>
                     </div>

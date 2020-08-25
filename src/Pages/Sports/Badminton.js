@@ -2,12 +2,13 @@ import React from 'react'
 import Layout from '../../Components/Layout'
 import * as image from '../../Components/Image'
 function Badminton() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block">
+            <section className="common-block">
                 <div className="container">
                     <div className="row">
-                        <div class="col-12 animate-top text-center">
+                        <div className="col-12 animate-top text-center">
                             <h2 className="mrb30">Badminton</h2>
                         </div>
                     </div>
@@ -22,7 +23,6 @@ function Badminton() {
                             The section hosts an annual tournament for all categories,
                             which is played with a good mix of competition & fun.
                         </p>
-
                         <h3 className="mrb30 mt-4">Play Timings & Basic Guidelines</h3>
                         <h5>Timings</h5>
                         <p className="text-justify">
@@ -35,7 +35,6 @@ function Badminton() {
                             2.  Adults:  Include children above 15 years of age<br />
                             3.  Saturdays sessions are only for RAHRC members. Guests are not allowed.<br />
                             4.  In addition to the above fixed slots, members may book the courts for badminton, during the ‘one-off’ slots available in the weekly sports hall schedule, by contacting the front desk directly
-
                         </p>
                         <h5 className="mrb10 mt-4">Basic Guidelines to be complied during the badminton sessions:</h5>
                         <p className="text-justify">
@@ -53,7 +52,7 @@ function Badminton() {
                             6. Guests are not allowed on Saturdays.
                         </p>
                     </div>
-                    <table class="table table-striped" border='5' >
+                    <table className="table table-striped" border='5' >
                         <tbody>
                             <tr>
                                 <td>Monday</td>
@@ -102,7 +101,6 @@ function Badminton() {
                             </tr>
                         </tbody>
                     </table>
-
                 </div>
             </section>
         </Layout>

@@ -6,17 +6,17 @@ export default function ContactUs() {
     window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block">
-                <div class="container">
-                    <div class="inner-text-main animate-top">
+            <section className="common-block">
+                <div className="container">
+                    <div className="inner-text-main animate-top">
                         <h2 >Contact Us</h2>
                     </div>
                     <br /><br />
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4 mb-3">
-                            <h3 class="h4 mb-3">Sultanate of Oman</h3>
+                    <div className="row">
+                        <div className="col-sm-6 col-md-4 mb-3">
+                            <h3 className="h4 mb-3">Sultanate of Oman</h3>
                             <address>
-                                <div class="cu-address">
+                                <div className="cu-address">
                                     <p>
                                         Ras Al Hamra Recreation Centre.<br />
                                         PO Box 81 Muscat,<br />
@@ -25,18 +25,18 @@ export default function ContactUs() {
                                 </div>
                             </address>
                         </div>
-                        <div class="col-sm-6 col-md-4 mb-3">
-                            <h3 class="h4 mb-3">Email:</h3>
+                        <div className="col-sm-6 col-md-4 mb-3">
+                            <h3 className="h4 mb-3">Email:</h3>
                             <address>
-                                <div class="cu-address">
-                                    <p><i class="custom-cu-envelope-icon"></i> <a href="mailto:rahrc@pdo.co.om">rahrc@pdo.co.om</a></p>
+                                <div className="cu-address">
+                                    <p><i className="custom-cu-envelope-icon"></i> <a href="mailto:rahrc@pdo.co.om">rahrc@pdo.co.om</a></p>
                                 </div>
                             </address>
                         </div>
-                        <div class="col-sm-6 col-md-4 mb-3">
-                            <h3 class="h4 mb-3">Telephone:</h3>
+                        <div className="col-sm-6 col-md-4 mb-3">
+                            <h3 className="h4 mb-3">Telephone:</h3>
                             <address>
-                                <div class="cu-address">
+                                <div className="cu-address">
                                     <p>General Enquiries: 24677321<br />
                                     Accounts: 24678157 /24671086/ 24673260<br />
                                     Bar Administration: 24675436<br />

@@ -14,41 +14,41 @@ export default function Gallery() {
                         <div className="row">
                             <div className="col-sm-6 col-md-4 mb-3">
                                 <div>
-                                    <img src={pic1} className="zoom" />
+                                    <img src={pic1} className="zoom img-fluid" />
                                 </div>
                                 <br />
                                 <div>
-                                    <img src={pic3} className="zoom" />
+                                    <img src={pic3} className="zoom img-fluid" />
                                 </div>
                                 <br />
                                 <div>
-                                    <img src={pic4} className="zoom" />
+                                    <img src={pic4} className="zoom img-fluid" />
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-4 mb-3">
                                 <div>
-                                    <img src={pic5} className="zoom" />
+                                    <img src={pic5} className="zoom img-fluid" />
                                 </div>
                                 <br />
                                 <div>
-                                    <img src={pic6} className="zoom" />
+                                    <img src={pic6} className="zoom img-fluid" />
                                 </div>
                                 <br />
                                 <div>
-                                    <img src={pic7} className="zoom" />
+                                    <img src={pic7} className="zoom img-fluid" />
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-4 mb-3">
                                 <div>
-                                    <img src={pic8} className="zoom" />
+                                    <img src={pic8} className="zoom img-fluid" />
                                 </div>
                                 <br />
                                 <div>
-                                    <img src={pic9} className="zoom" />
+                                    <img src={pic9} className="zoom img-fluid" />
                                 </div>
                                 <br />
                                 <div>
-                                    <img src={pic10} className="zoom" />
+                                    <img src={pic10} className="zoom img-fluid" />
                                 </div>
                             </div>
                         </div>

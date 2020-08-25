@@ -5,14 +5,14 @@ export default function Organisation() {
     window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block">
-                <div class="container">
-                    <div class="inner-text-main animate-top">
+            <section className="common-block">
+                <div className="container">
+                    <div className="inner-text-main animate-top">
                         <h2 >Organisation</h2>
                     </div>
                     <br />
                     <h3>Main Committee:</h3>
-                    <table class="table table-striped " >
+                    <table className="table table-striped " >
                         <thead >
                             <tr>
                                 <th scope="col"><h6>Position</h6></th>

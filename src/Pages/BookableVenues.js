@@ -8,14 +8,14 @@ export default function BookableVenues() {
     window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block pb-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2 class="mrb30">Bookable Venues</h2>
+            <section className="common-block pb-0">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <h2 className="mrb30">Bookable Venues</h2>
                         </div>
                     </div>
-                    <div class="mb-4" >
+                    <div className="mb-4" >
                         <p className="text-justify">
                             It is possible to book venues at RAHRC for meetings, conferences, parties or other (private) gatherings.
                         </p>
@@ -36,8 +36,8 @@ export default function BookableVenues() {
             </section>
             <VenueTable />
             <VenueCards />
-            <section class="pb-0 mt-4">
-                <div class="container">
+            <section className="pb-0 mt-4">
+                <div className="container">
                     <div >
                         <h5>Pre-Requisites</h5>
                         <p> Kindly fill in the below details and send them back to us.</p>

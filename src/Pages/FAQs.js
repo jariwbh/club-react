@@ -21,9 +21,9 @@ export default function FAQs() {
     });
     return (
         <Layout>
-            <section class="common-block">
-                <div class="container ">
-                    <div class="inner-text-main animate-top">
+            <section className="common-block">
+                <div className="container ">
+                    <div className="inner-text-main animate-top">
                         <h2 >FAQs</h2>
                     </div>
                     <Accordion defaultActiveKey="1">
@@ -37,7 +37,7 @@ export default function FAQs() {
                                         aria-controls="collapseOne"
                                         eventKey="1">
                                         Collapsible Group Item #1
-                                                </Accordion.Toggle>
+                                    </Accordion.Toggle>
                                 </h5>
                             </Card.Header>
                             <Accordion.Collapse id="collapseOne" aria-labelledby="headingOne" eventKey="1">
@@ -56,7 +56,7 @@ export default function FAQs() {
                                         aria-controls="collapseTwo"
                                         eventKey="2">
                                         Collapsible Group Item #2
-                                                </Accordion.Toggle>
+                                    </Accordion.Toggle>
                                 </h5>
                             </Card.Header>
                             <Accordion.Collapse id="collapseTwo" aria-labelledby="headingTwo" eventKey="2">
@@ -75,7 +75,7 @@ export default function FAQs() {
                                         aria-controls="collapseThree"
                                         eventKey="3">
                                         Collapsible Group Item #3
-                                                </Accordion.Toggle>
+                                    </Accordion.Toggle>
                                 </h5>
                             </Card.Header>
                             <Accordion.Collapse id="collapseThree" aria-labelledby="headingThree" eventKey="3">

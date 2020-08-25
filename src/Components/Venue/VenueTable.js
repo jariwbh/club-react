@@ -2,10 +2,10 @@ import React from 'react'
 
 function VenueTable() {
     return (
-        <section class="mt-3 pb-0">
-            <div class="container">
-                <h3 class="h4 mb-4">Venue Charges</h3>
-                <table class="table table-striped" >
+        <section className="mt-3 pb-0">
+            <div className="container">
+                <h3 className="h4 mb-4">Venue Charges</h3>
+                <table className="table table-striped" >
                     <thead >
                         <tr>
                             <th scope="col"><h6>No.</h6></th>

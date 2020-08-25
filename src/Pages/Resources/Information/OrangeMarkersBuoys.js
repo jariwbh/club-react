@@ -1,17 +1,18 @@
 import React from 'react'
 import Layout from '../../Components/Layout'
 export default function OrangeMarkersBuoys() {
+    window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block pb-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2 class="mrb30">About Us</h2>
+            <section className="common-block pb-0">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <h2 className="mrb30">About Us</h2>
                         </div>
                     </div>
                     <div >
-                        <p class="text-justify">
+                        <p className="text-justify">
                             The RAS AL HAMRA RECREATION CENTRE (RAHRC) is  located in the Ras  al Hamra residential area. The RAHRC provides opportunities for social, recreational and sporting activities for the benefit of RAH staff and their families. Membership requires the payment of a modest monthly fee, which is automatically charged to the members’ account.
 
                             The Ras al Hamra  (RAH) Club boasts a number of facilities for both social and recreational activities. It has coffee shop and restaurant as well as swimming pools for  adults and children, private beaches, gymnasiums and nine-hole golf course which  are under construction. All payments, whether for food, or sports instruction, are made through an electronic membership card and recovered from the member’s salary.

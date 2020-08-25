@@ -4,11 +4,11 @@ export default function Pricing() {
     window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block pb-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2 class="mrb30">Club Activity Charges</h2>
+            <section className="common-block pb-0">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <h2 className="mrb30">Club Activity Charges</h2>
                         </div>
                     </div>
                     <div >
