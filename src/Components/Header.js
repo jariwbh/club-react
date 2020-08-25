@@ -72,11 +72,11 @@ function Header() {
                                                     <h6 className="head-drp">Social Sections</h6>
                                                     <Link className="dropdown-item" to="/toastmasters">Toastmasters</Link>
                                                     <Link className="dropdown-item" to="/bridge">Bridge</Link>
-                                                    <a className="dropdown-item" href="#">Marah Tots</a>
-                                                    <a className="dropdown-item" href="#">Canadian</a>
-                                                    <a className="dropdown-item" href="#">Hispanic</a>
-                                                    <a className="dropdown-item" href="#">Holland</a>
-                                                    <a className="dropdown-item" href="#">Pakistan</a>
+                                                    <Link className="dropdown-item" to="/marahtots">Marah Tots</Link>
+                                                    <Link className="dropdown-item" to="/canadian">Canadian</Link>
+                                                    <Link className="dropdown-item" to="/hispanic">Hispanic</Link>
+                                                    <Link className="dropdown-item" to="/holland">Holland</Link>
+                                                    <Link className="dropdown-item" to="/pakistan">Pakistan</Link>
                                                 </div>
                                             </div>
                                         </div>
