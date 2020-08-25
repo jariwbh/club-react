@@ -1,27 +1,28 @@
 import React from 'react'
-import Layout from '../../Components/Layout'
+import Layout from '../../../Components/Layout'
+import * as image from '../../../Components/Image'
+
 export default function OrangeMarkersBuoys() {
     window.scrollTo(0, 0);
     return (
         <Layout>
             <section className="common-block pb-0">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12 text-center">
-                            <h2 className="mrb30">About Us</h2>
-                        </div>
+                    <div className="mrb30 text-center">
+                        <img src={image.orangemarkersbuoysimg} className="img-fluid " />
                     </div>
                     <div >
                         <p className="text-justify">
-                            The RAS AL HAMRA RECREATION CENTRE (RAHRC) is  located in the Ras  al Hamra residential area. The RAHRC provides opportunities for social, recreational and sporting activities for the benefit of RAH staff and their families. Membership requires the payment of a modest monthly fee, which is automatically charged to the members’ account.
-
-                            The Ras al Hamra  (RAH) Club boasts a number of facilities for both social and recreational activities. It has coffee shop and restaurant as well as swimming pools for  adults and children, private beaches, gymnasiums and nine-hole golf course which  are under construction. All payments, whether for food, or sports instruction, are made through an electronic membership card and recovered from the member’s salary.
-
-                            Most activities at the Club are run by volunteer members who form "sections", such as the Ras al Hamra Amateur Dramatic Society, the Astronomy section, and so on. The sections can not only make full use of RAHRC facilities but also receive some financial support from the club. And if there is no section that covers your particular interest, you can start one up yourself!
-
-                            Sports and Social Recreation facilities at the RAH Club:
-
-                            Arts & Craft Centre, Boat Club, Book Library, Bulk Store, Cinema/Theatre Hall, Golf Club, Gym, Ladies Association, Snooker Room, Squash Courts, Swimming Pool,  Tennis Courts, Video Shop, Volleyball Court.
+                            Dear Fishermen and Powerboat owners,
+                        </p>
+                        <p className="text-justify">
+                            There was a close call/near miss incident inside our RAH-Bay when a swimmer was almost run-over by a powerboat going at full speed.
+                        </p>
+                        <p className="text-justify">
+                            The swimmer was well within the orange buoys. The boat was external to the club. He came inside the buoys about half way to the beach and went out again. All this at full speed, he missed the swimmer by about 1 meter. The driver was called and he apologized after the incident.
+                        </p>
+                        <p className="text-justify">
+                            We stress again to all fisherman and powerboat owners to reduce your speeds within the bay inside the line of orange buoys to a MAXIMUM of 3 Knots (6 km/hr).
                         </p>
                     </div>
                 </div>

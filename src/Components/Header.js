@@ -1,9 +1,7 @@
 import React, { Component, useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import { logo } from './Image'
+import * as pdf from '../Components/pdf'
 
 function Header() {
     return (
@@ -38,6 +36,7 @@ function Header() {
                                             <Link className="dropdown-item" to="/contactus">Contact Us</Link>
                                             {/* <Link className="dropdown-item" to="/channelpartner">Channel Partner</Link> */}
                                             <Link className="dropdown-item" to="/gallery">Gallery</Link>
+                                            <Link className="dropdown-item" to="/security">Security</Link>
                                         </div>
                                     </li>
                                     <li className="nav-item dropdown">
@@ -46,27 +45,27 @@ function Header() {
                                             <div className="row no-gutters">
                                                 <div className="col-md-4">
                                                     <h6 className="head-drp">Information</h6>
-                                                    <a className="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/info_guide_27.02.2020.pdf" target="_blank">Information Guide</a>
-                                                    <a className="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/rahrc_beach_operations.pdf" target="_blank">Water Front Procedures</a>
-                                                    <a className="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/rahrc_statutes_update.pdf" target="_blank">Statues &amp; House Rules</a>
-                                                    <a className="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/ats_info.pdf" target="_blank">Tennis Information</a>
-                                                    <a className="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/britswim_info.pdf" target="_blank">Brit swim Information</a>
-                                                    <a className="dropdown-item" href="#">Orange Markers Buoys</a>
-                                                    <a className="dropdown-item" href="https://pdorc.com/uploads/3/5/2/2/35228168/agm_minutes_2018.pdf" target="_blank">AGM Minutes 2018</a>
-                                                    <a className="dropdown-item" href="#">HSE Plan 2017</a>
-                                                    <a className="dropdown-item" href="#">Forms</a>
-                                                    <a className="dropdown-item" href="#">RAHRC Bulletin</a>
+                                                    <a className="dropdown-item" href={pdf.InformationGuide} target="_blank">Information Guide</a>
+                                                    <a className="dropdown-item" href={pdf.WaterfrontProcedures} target="_blank">Water Front Procedures</a>
+                                                    <a className="dropdown-item" href={pdf.StatusAndHouseRule} target="_blank">Statues &amp; House Rules</a>
+                                                    <a className="dropdown-item" href={pdf.TennisInformation} target="_blank">Tennis Information</a>
+                                                    <a className="dropdown-item" href={pdf.BritswimInformation} target="_blank">Brit swim Information</a>
+                                                    <Link className="dropdown-item" to="/orangemarkersbuoys">Orange Markers Buoys</Link>
+                                                    <a className="dropdown-item" href={pdf.AGMMinutes2018} target="_blank">AGM Minutes 2018</a>
+                                                    <Link className="dropdown-item" to="/hse">HSE Plan 2017</Link>
+                                                    <Link className="dropdown-item" to="/register">Forms</Link>
+                                                    <Link className="dropdown-item" to="/rahrcbulletin">RAHRC Bulletin</Link>
                                                     <Link className="dropdown-item" to="/blogs">Blogs</Link>
                                                     <Link className="dropdown-item" to="/faqs">FAQs</Link>
                                                 </div>
                                                 <div className="col-md-4">
                                                     <h6 className="head-drp">Schedules</h6>
-                                                    <a className="dropdown-item" href="#">RAH Library</a>
-                                                    <a className="dropdown-item" href="#">Calendar 2020</a>
-                                                    <a className="dropdown-item" href="#">RAHRC Pool Schedule</a>
-                                                    <a className="dropdown-item" href="#">MAF Pool Schedule</a>
-                                                    <a className="dropdown-item" href="#">Sports Hall Booking</a>
-                                                    <a className="dropdown-item" href="#">Tennis Court Booking</a>
+                                                    <Link className="dropdown-item" to="/rahlibrary">RAH Library</Link>
+                                                    <a className="dropdown-item" href={pdf.calendar2020} target="_blank">Calendar 2020</a>
+                                                    <a className="dropdown-item" href={pdf.RAHRCPoolSchedule} target="_blank">RAHRC Pool Schedule</a>
+                                                    <a className="dropdown-item" href={pdf.swimmingpool} target="_blank">MAF Pool Schedule</a>
+                                                    <Link className="dropdown-item" to="/sportshallbooking">Sports Hall Booking</Link>
+                                                    <Link className="dropdown-item" to="/tenniscourtbooking">Tennis Court Booking</Link>
                                                 </div>
                                                 <div className="col-md-4">
                                                     <h6 className="head-drp">Social Sections</h6>

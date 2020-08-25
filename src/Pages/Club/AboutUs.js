@@ -5,10 +5,10 @@ export default function AboutUs() {
     window.scrollTo(0, 0);
     return (
         <Layout>
-            <section class="common-block">
+            <section className="common-block">
                 <div className="container">
                     <div className="row">
-                        <div class="col-12 animate-top text-center">
+                        <div className="col-12 animate-top text-center">
                             <h2 className="mrb30">About Us</h2>
                         </div>
                     </div>

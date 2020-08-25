@@ -50,8 +50,11 @@ import kayakimg1 from '../Assets/Images/kayak-img-1.png'
 import toastmasterimg1 from '../Assets/Images/toastmaster-img-1.jpg'
 import toastmasterimg2 from '../Assets/Images/toastmaster-img-2.jpg'
 import toastmasterimg3 from '../Assets/Images/toastmaster-img-3.jpg'
-
 import pakistan from '../Assets/Images/pakistan.png'
+import tennisimg1 from '../Assets/Images/tennis-img-1.jpg'
+import tennisimg2 from '../Assets/Images/tennis-img-2.jpg'
+import orangemarkersbuoysimg from '../Assets/Images/orange-markers-buoys-img.jpg'
+import blogimg1 from '../Assets/Images/blog-img-1.png'
 
 export {
     logo, demo, pic1, timesvacanza, yogatopics, clubhozo,
@@ -62,5 +65,5 @@ export {
     fishimg5, fishimg6, fishimg7, golfclubimg1, golfclubimg2, golfclubimg3,
     golfclubimg4, golfclubimg5, golfclubimg6, golfclubimg7, golfclubimg8, golfclubimg9,
     golfclubimg10, kayakimg1, toastmasterimg1, toastmasterimg2, toastmasterimg3,
-    pakistan
+    pakistan, tennisimg1, tennisimg2, orangemarkersbuoysimg, blogimg1
 };
