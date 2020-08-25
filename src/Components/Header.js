@@ -25,6 +25,7 @@ function Header() {
                                             <Link className="dropdown-item" to="/golfclub">Golf Club</Link>
                                             <Link className="dropdown-item" to="/hockey">Hockey</Link>
                                             <Link className="dropdown-item" to="/kayak">Kayak</Link>
+                                            <Link className="dropdown-item" to="/adventure">Adventure</Link>
                                         </div>
                                     </li>
                                     <li className="nav-item"><Link className="nav-link" to="/pricing">Pricing</Link></li>

@@ -32,6 +32,7 @@ import SportsHallBooking from '../Pages/Resources/Schedules/SportsHallBooking'
 import HSE from '../Pages/Resources/Information/HSE'
 import OrangeMarkersBuoys from '../Pages/Resources/Information/OrangeMarkersBuoys'
 import RAHRCBulletin from '../Pages/Resources/Information/RAHRCBulletin'
+import Adventure from '../Pages/Sports/Adventure'
 
 class Default extends Component {
     render() {
@@ -61,6 +62,7 @@ class Default extends Component {
                 <Route exact path="/powerboat" component={Powerboat} />
                 <Route exact path="/fish" component={Fish} />
                 <Route exact path="/golfclub" component={GolfClub} />
+                <Route exact path="/adventure" component={Adventure} />
 
                 {/* social section */}
                 <Route exact path="/bridge" component={Bridge} />
