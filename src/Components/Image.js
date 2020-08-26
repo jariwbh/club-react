@@ -56,6 +56,14 @@ import tennisimg2 from '../Assets/Images/tennis-img-2.jpg'
 import orangemarkersbuoysimg from '../Assets/Images/orange-markers-buoys-img.jpg'
 import blogimg1 from '../Assets/Images/blog-img-1.png'
 
+import adventureimg1 from '../Assets/Images/adventure-img-1.jpg'
+import adventureimg2 from '../Assets/Images/adventure-img-2.jpg'
+import adventureimg3 from '../Assets/Images/adventure-img-3.jpg'
+import adventureimg4 from '../Assets/Images/adventure-img-4.png'
+import adventureimg5 from '../Assets/Images/adventure-img-5.jpg'
+import adventureimg6 from '../Assets/Images/adventure-img-6.jpg'
+
+
 export {
     logo, demo, pic1, timesvacanza, yogatopics, clubhozo,
     pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12,
@@ -65,5 +73,6 @@ export {
     fishimg5, fishimg6, fishimg7, golfclubimg1, golfclubimg2, golfclubimg3,
     golfclubimg4, golfclubimg5, golfclubimg6, golfclubimg7, golfclubimg8, golfclubimg9,
     golfclubimg10, kayakimg1, toastmasterimg1, toastmasterimg2, toastmasterimg3,
-    pakistan, tennisimg1, tennisimg2, orangemarkersbuoysimg, blogimg1
+    pakistan, tennisimg1, tennisimg2, orangemarkersbuoysimg, blogimg1, adventureimg1,
+    adventureimg2, adventureimg3, adventureimg4, adventureimg5, adventureimg6
 };
