@@ -65,6 +65,7 @@ class Default extends Component {
                 <Route exact path="/adventure" component={Adventure} />
 
                 {/* social section */}
+
                 <Route exact path="/bridge" component={Bridge} />
                 <Route exact path="/toastmasters" component={Toastmasters} />
                 <Route exact path="/marahtots" component={MarahTots} />
