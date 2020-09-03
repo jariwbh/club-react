@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Switch, Route } from 'react-router-dom'
 import Home from "./home"
-import BookableVenues from "./bookableVenues"
+import BookableVenues from "./bookablevenues"
 import Pricing from "./pricing"
 import AboutUs from "./Club/aboutUs"
 import ContactUs from "./Club/contactUs"
